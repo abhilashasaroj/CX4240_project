@@ -1,2 +1,34 @@
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - CONTRIBUTING.md
+  - README.md
+  - LICENSE.md
+  - COPYING.md
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - ISSUE_TEMPLATE.md
+  - PULL_REQUEST_TEMPLATE.md
 theme: jekyll-theme-dinky
-title: CX 4240:Application of Machine Learning Project Proposal
+
+# Name of website
+title: CX 424 Project:A Comparison of Supervised Learning Algorithms for Wine Quality Prediction
+
+# Short description of your site
+description: CX42420 Summer 2019 Project by Abhilasha Saroj, Ogulcan Canbek, Renee Rios, and Yi Li
+
+# --- Background colour/image options --- #
+
+# Personalize the colors in your website. Colour values can be any valid CSS colour
+navbar-col: "#F5F5F5"
+navbar-text-col: "#404040"
+navbar-children-col: "#F5F5F5"
+page-col: "#FFFFFF"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#F5F5F5"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
