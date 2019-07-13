@@ -13,7 +13,8 @@ This study aims to compare the performance of different supervised learning algo
 Describe features, labels - Renee
 
 Add visualizations - Renee
-
+ 
+![alt text](pic1.JPG)
 
 ## Initial Data Exploration 
 ### Principal Componenet Analysis - Abhilasha
