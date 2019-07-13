@@ -10,6 +10,7 @@ This study aims to compare the performance of different supervised learning algo
 
 ## Data Description and Initial Data Exploration
 Describe features, labels - Renee
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~abhilashasaroj/108.embed"></iframe>
 
 Add visualizations - Renee
  
