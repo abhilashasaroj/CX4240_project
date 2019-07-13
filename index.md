@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## A Comparison of Supervised Learning Algorithms for Wine Quality Prediction
 
 Inline-style: 
 ![alt text](https://cdn.pixabay.com/photo/2014/12/17/21/30/wild-flowers-571940_960_720.jpg "Logo Title Text 1")
