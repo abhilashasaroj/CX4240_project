@@ -2,43 +2,64 @@
 ![alt text](https://www.nvtt.net/wp-content/uploads/2018/10/wine-tasting.jpg "Logo Title Text 1")
 
 # Introduction
+This study aims to compare the performance of different supervised learning algorithms to predict wine quality based on a wine’s physicochemical test results. Wine quality assessment is crucial in the wine industry and is assessed based on physicochemical tests at laboratories and on sensory tests that rely on human experts opinion on wine preferences [1].
+
+# Background and Motivation - Renee
+-> Why this is important? Can take from the proposal. 
+-> give the ratio of test and training for all models 
+-> Add outline of the webapage/presentation.
+
+# Data Description and Initial Data Exploration
+Describe features, labels - Renee
+
+Add visualizations - Renee
 
 
-# Data Description 
+# Initial Data Exploration 
+## Principal Componenet Analysis - Abhilasha
 
-# Intial Data Exploration FIndings
-
+Describe PC scores and result
+Add visualizations
 
 # Supervised Learning Models for Wine Quality Prediction
-
-## Quality Prediction Using Linear Regression and Polynomical Regression 
-
-### Model Cross Validation Results
-
-### Discussion 
-
-## Quality Prediction Using Ridge Regression and Lasso Regression
+-> Add outline
+## Quality Prediction Using Linear Regression and Polynomical Regression - Yi
 
 ### Model Cross Validation Results
 
 ### Discussion 
 
-## Quality Prediction Using Logistic Regression
+## Quality Prediction Using Ridge Regression and Lasso Regression - Yi 
 
 ### Model Cross Validation Results
 
 ### Discussion 
 
-## Quality Prediction Using Neural Network 
+## Quality Prediction Using Logistic Regression - Abhilasha
 
 ### Model Cross Validation Results
 
 ### Discussion 
 
-## Quality Prediction Using Support Vector Machine
+## Quality Prediction Using Neural Network - Abhilasha
 
 ### Model Cross Validation Results
 
 ### Discussion 
 
-# Discussion 
+## Quality Prediction Using Support Vector Machine - Ogulcan
+
+### Model Cross Validation Results
+
+### Discussion 
+
+# Comparison of Prediction Models
+
+->Tabulate value comparisons (Add table)
+
+# Conclusion
+
+
+Thank you
+
+
