@@ -21,7 +21,6 @@ title: A Comparison of Supervised Learning Algorithms for Wine Quality Predictio
 description: CX4240 Summer 2019 Project by Abhilasha Saroj, Ogulcan Canbek, Renee Rios, and Yi Li
 
 # --- Background colour/image options --- #
-
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 navbar-col: "#F5F5F5"
 navbar-text-col: "#404040"
