@@ -10,7 +10,6 @@ This study aims to compare the performance of different supervised learning algo
 
 ## Data Description and Initial Data Exploration
 Describe features, labels - Renee
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~abhilashasaroj/108.embed"></iframe>
 
 Add visualizations - Renee
  
@@ -20,10 +19,7 @@ Add visualizations - Renee
 ## Initial Data Exploration 
 ### Principal Componenet Analysis - Abhilasha
 
-<div>
-    <a href="https://plot.ly/~abhilashasaroj/108/?share_key=iEPmfUQTShguEUVf7tdG3Z" target="_blank" title="simple-3d-scatter" style="display: block; text-align: center;"><img src="https://plot.ly/~abhilashasaroj/108.png?share_key=iEPmfUQTShguEUVf7tdG3Z" alt="simple-3d-scatter" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="abhilashasaroj:108" sharekey-plotly="iEPmfUQTShguEUVf7tdG3Z" src="https://plot.ly/embed.js" async></script>
-</div>
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~abhilashasaroj/108.embed"></iframe>
 
 Describe PC scores and result
 Add visualizations
