@@ -15,10 +15,10 @@ include:
 theme: jekyll-theme-dinky
 
 # Name of website
-title: CX 424 Project:A Comparison of Supervised Learning Algorithms for Wine Quality Prediction
+title: A Comparison of Supervised Learning Algorithms for Wine Quality Prediction
 
 # Short description of your site
-description: CX42420 Summer 2019 Project by Abhilasha Saroj, Ogulcan Canbek, Renee Rios, and Yi Li
+description: CX4240 Summer 2019 Project by Abhilasha Saroj, Ogulcan Canbek, Renee Rios, and Yi Li
 
 # --- Background colour/image options --- #
 
