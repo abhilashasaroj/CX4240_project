@@ -1,4 +1,3 @@
-## A Comparison of Supervised Learning Algorithms for Wine Quality Prediction
 ![alt text](https://www.nvtt.net/wp-content/uploads/2018/10/wine-tasting.jpg "Logo Title Text 1")
 
 ## Introduction
