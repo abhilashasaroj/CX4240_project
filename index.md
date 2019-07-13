@@ -16,6 +16,7 @@ Add visualizations - Renee
  
 ![alt text](pic1.JPG)
 
+
 ## Initial Data Exploration 
 ### Principal Componenet Analysis - Abhilasha
 
