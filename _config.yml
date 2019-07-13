@@ -12,7 +12,7 @@ include:
   - CONTRIBUTING.md
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
-theme: jekyll-theme-slate
+theme: jekyll-theme-cayman
 
 # Name of website
 title: A Comparison of Supervised Learning Algorithms for Wine Quality Prediction
