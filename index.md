@@ -18,6 +18,7 @@ Add visualizations - Renee
 ## Initial Data Exploration 
 ### Principal Componenet Analysis - Abhilasha
 
+(https://plot.ly/~abhilashasaroj/108)
 Describe PC scores and result
 Add visualizations
 
