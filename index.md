@@ -49,10 +49,12 @@ First, Let's try fit the function when degree n = 3, the "true_y vs. predicted_y
 it is worthnoting that the degree of polynormial function influece the fitting of model, beacaue we don't want to overfit or underfit the model. so we plot the 'MSE vs. polynormial degree n' to see which degree has the lowest MSE value:
 ![alt text](MSEp.png)
 ## Discussion 
-By comparing the MSE between 
+By comparing the MSE between linear regression model and polynormial model, we can conclude that for our dataset, polynormial model (when n = 2) is a little bit better than linear regression model and n = other values.
 
 ### Quality Prediction Using Ridge Regression and Lasso Regression - Yi 
-
+### (3) Ridge Regression
+For Ridge Regression, we add a regulation in the function to reduce the magnitude of the coefficients. Our goal is to get:
+ min(||Y-X(&emsp)||^2+ &alpha||&theta||^2)
 #### Model Cross Validation Results
 
 #### Discussion 
