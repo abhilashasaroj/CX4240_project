@@ -54,7 +54,7 @@ By comparing the MSE between linear regression model and polynormial model, we c
 ### Quality Prediction Using Ridge Regression and Lasso Regression - Yi 
 ### (3) Ridge Regression
 For Ridge Regression, we add a regulation in the function to reduce the magnitude of the coefficients. Our goal is to get:
- min(||Y-X(_&emsp_)||^2+ _&alpha_||_&theta_||^2)
+ min(||Y-X(\theta)||^2+ \lambda||\theta||^2)
 #### Model Cross Validation Results
 
 #### Discussion 
