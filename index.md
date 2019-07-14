@@ -24,7 +24,7 @@ Add visualizations - Renee
 
 ![alt text](pc_2d.png)
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~abhilashasaroj/108.embed"></iframe>
+<iframe width="700" height="600" frameborder="0" scrolling="no" src="//plot.ly/~abhilashasaroj/108.embed"></iframe>
 
 Describe PC scores and result
 Add visualizations
@@ -33,7 +33,7 @@ Add visualizations
 -> Add outline
 ### Quality Prediction Using Linear Regression and Polynomical Regression - Yi
 First, let's look at the correlation among features and label('quality'):
-![alt text](Cor-1.png)
+![alt text](Cor-1.png = 100x100)
 From the correlation map, we can see that the most correlated feature with 'quality' is 'alchol'.
 Then we want to plot the relation between each feature and label:
 ![alt text](LR%20in%20seaborn.png)
