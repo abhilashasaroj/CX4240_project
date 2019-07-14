@@ -82,10 +82,10 @@ we can see the Lasso regression can get a higher score when \lambda is really sm
 
 
 ##### Discussion 
-|Model.         | Linear        | Polynomial, n=3 | Ridge, \lambda = 100| Lasso, \lambda = 0.0001|
-| ------------- | ------------- | --------------- | --------------------|------------------------|
-| MSE.          | 0.5409.       | 0.4848.         | 0.3799.             | 0.42578                |
-| TEST Score.   | 0.299.        | 0.3385.         | 0.34.               | 0.39.                  |
+|Model.         | Linear        |
+| ------------- | ------------- |
+| MSE.          | 0.5409.       |
+| TEST Score.   | 0.299.        |
 
 
 ### Quality Prediction Using Logistic Regression - Abhilasha
@@ -94,7 +94,7 @@ we can see the Lasso regression can get a higher score when \lambda is really sm
 
 #### Discussion 
 
-### Quality Prediction Using Neural Network - Abhilasha
+### Quality Prediction Using Decision Tree and Random Ensemble Classifier - Abhilasha
 
 #### Model Cross Validation Results
 
