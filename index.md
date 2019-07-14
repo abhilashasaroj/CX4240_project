@@ -33,7 +33,7 @@ Add visualizations
 -> Add outline
 ### Quality Prediction Using Linear Regression and Polynomical Regression - Yi
 First, let's look at the correlation among features and label('quality'):
-![alt text](Cor-1.png = 100x100)
+![alt text](Cor-1.png|width= 100)
 From the correlation map, we can see that the most correlated feature with 'quality' is 'alchol'.
 Then we want to plot the relation between each feature and label:
 ![alt text](LR%20in%20seaborn.png)
