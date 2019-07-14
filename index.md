@@ -88,8 +88,8 @@ we see for this case, score is presentinf an opposite trend as MSE, but it also 
 
 ## Comparison of Prediction Models
 
-->Tabulate value comparisons (Add table)
-| Learning Classifier  | Accuracy Scor |
+
+| Learning Classifier  | Accuracy Score |
 | ------------- | ------------- |
 | Linear Regression Classifier  |xxx  |
 | Polynomial Regression Classifier  | xxx |
