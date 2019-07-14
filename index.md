@@ -83,7 +83,7 @@ For Ridge Regression, we add a regulation in the function to reduce the magnitud
 
 ## Comparison of Prediction Models
 
-->Tabulate value comparisons (Add table)
+
 | Learning Model                    | Accuracy Score|
 | ----------------------------------|:-------------:| 
 | Linear Regression Classifier      | enter val     |
