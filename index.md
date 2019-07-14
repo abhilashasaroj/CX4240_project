@@ -24,7 +24,7 @@ Add visualizations - Renee
 
 ![alt text](pc_2d.png)
 
-<iframe width="700" height="600" frameborder="0" scrolling="no" src="//plot.ly/~abhilashasaroj/108.embed"></iframe>
+<iframe width="700" height="700" frameborder="0" scrolling="no" src="//plot.ly/~abhilashasaroj/108.embed"></iframe>
 
 Describe PC scores and result
 Add visualizations
@@ -36,11 +36,11 @@ First, let's look at the correlation among features and label('quality'):
 ![alt text](Cor-1.png|width= 100)
 From the correlation map, we can see that the most correlated feature with 'quality' is 'alchol'.
 Then we want to plot the relation between each feature and label:
-![alt text](LR%20in%20seaborn.png)
+![alt text](LR%20in%20seaborn.png|width=75)
 We can see that the linear relation bewteen each features and label is not very good prediction, so we want to do a linear combination of all features of dataset to do the prediction. 
 #### (1) Linear Regression
 We first split our training and test data into 66% and 34%, then we did the Linear Regression Model to fit our function, here's the outcome of our "true_y vs. predicted_y" :
-![alt text](LRpredict.png)
+![alt text](LRpredict.png|width=75)
 
 ##### the calculated MSE = 0.5409578
 ##### Test Score = 0.299689
