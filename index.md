@@ -16,6 +16,9 @@ Add visualizations - Renee
 ![alt text](pic1.JPG)
 
 
+###Feature Pairplot
+![alt text](feature_plots.png)
+
 ## Initial Data Exploration 
 ### Principal Componenet Analysis - Abhilasha
 
