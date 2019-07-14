@@ -1,0 +1,790 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: 100%;" viewBox="0 0 6272 581" width="6272pt" height="581pt" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g class="graph" id="graph0" transform="scale(1) rotate(0) translate(4 577)">
+<title>Tree</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-577 6268,-577 6268,4 -4,4" />
+<!-- 0 -->
+<g class="node" id="node1"><title>0</title>
+<polygon fill="#39e5e2" fill-opacity="0.152941" stroke="black" points="3406.5,-573 3156.5,-573 3156.5,-505 3406.5,-505 3406.5,-573" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3281.5" y="-557.8">X[11] &lt;= 0.13</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3281.5" y="-542.8">entropy = 1.846</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3281.5" y="-527.8">samples = 4330</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3281.5" y="-512.8">value = [19, 139, 1426, 1874, 729, 139, 4]</text>
+</g>
+<!-- 1 -->
+<g class="node" id="node2"><title>1</title>
+<polygon fill="#39e54d" fill-opacity="0.113725" stroke="black" points="2512.5,-469 2276.5,-469 2276.5,-401 2512.5,-401 2512.5,-469" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2394.5" y="-453.8">X[2] &lt;= -0.614</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2394.5" y="-438.8">entropy = 1.599</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2394.5" y="-423.8">samples = 2567</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2394.5" y="-408.8">value = [9, 100, 1210, 1034, 186, 27, 1]</text>
+</g>
+<!-- 0&#45;&gt;1 -->
+<g class="edge" id="edge1"><title>0-&gt;1</title>
+<path fill="none" stroke="black" d="M 3156.3 -523.602 C 2988.44 -504.3 2692.02 -470.213 2522.66 -450.738" />
+<polygon fill="black" stroke="black" points="2523.03,-447.257 2512.7,-449.592 2522.23,-454.212 2523.03,-447.257" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2528.24" y="-465.473">True</text>
+</g>
+<!-- 32 -->
+<g class="node" id="node33"><title>32</title>
+<polygon fill="#39e5e2" fill-opacity="0.243137" stroke="black" points="4088.5,-469 3858.5,-469 3858.5,-401 4088.5,-401 4088.5,-469" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3973.5" y="-453.8">X[11] &lt;= 1.025</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3973.5" y="-438.8">entropy = 1.836</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3973.5" y="-423.8">samples = 1763</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3973.5" y="-408.8">value = [10, 39, 216, 840, 543, 112, 3]</text>
+</g>
+<!-- 0&#45;&gt;32 -->
+<g class="edge" id="edge32"><title>0-&gt;32</title>
+<path fill="none" stroke="black" d="M 3406.82 -519.529 C 3531.96 -501.083 3723.2 -472.894 3848.3 -454.455" />
+<polygon fill="black" stroke="black" points="3848.93,-457.899 3858.31,-452.978 3847.91,-450.974 3848.93,-457.899" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3843.4" y="-469.345">False</text>
+</g>
+<!-- 2 -->
+<g class="node" id="node3"><title>2</title>
+<polygon fill="#39e5e2" fill-opacity="0.411765" stroke="black" points="1231.5,-365 1015.5,-365 1015.5,-297 1231.5,-297 1231.5,-365" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1123.5" y="-349.8">X[11] &lt;= -1.286</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1123.5" y="-334.8">entropy = 1.674</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1123.5" y="-319.8">samples = 702</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1123.5" y="-304.8">value = [3, 13, 169, 388, 108, 21, 0]</text>
+</g>
+<!-- 1&#45;&gt;2 -->
+<g class="edge" id="edge2"><title>1-&gt;2</title>
+<path fill="none" stroke="black" d="M 2276.35 -424.519 C 2034.27 -405.091 1484.33 -360.957 1241.97 -341.507" />
+<polygon fill="black" stroke="black" points="1241.96,-337.996 1231.72,-340.685 1241.4,-344.973 1241.96,-337.996" />
+</g>
+<!-- 17 -->
+<g class="node" id="node18"><title>17</title>
+<polygon fill="#39e54d" fill-opacity="0.32549" stroke="black" points="2499,-365 2290,-365 2290,-297 2499,-297 2499,-365" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2394.5" y="-349.8">X[11] &lt;= -0.536</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2394.5" y="-334.8">entropy = 1.456</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2394.5" y="-319.8">samples = 1865</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2394.5" y="-304.8">value = [6, 87, 1041, 646, 78, 6, 1]</text>
+</g>
+<!-- 1&#45;&gt;17 -->
+<g class="edge" id="edge17"><title>1-&gt;17</title>
+<path fill="none" stroke="black" d="M 2394.5 -400.884 C 2394.5 -392.778 2394.5 -383.982 2394.5 -375.472" />
+<polygon fill="black" stroke="black" points="2398,-375.299 2394.5,-365.299 2391,-375.299 2398,-375.299" />
+</g>
+<!-- 3 -->
+<g class="node" id="node4"><title>3</title>
+<polygon fill="#39e5e2" fill-opacity="0.035294" stroke="black" points="650,-261 461,-261 461,-193 650,-193 650,-261" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="555.5" y="-245.8">X[1] &lt;= 0.015</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="555.5" y="-230.8">entropy = 1.992</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="555.5" y="-215.8">samples = 86</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="555.5" y="-200.8">value = [1, 0, 27, 29, 13, 16, 0]</text>
+</g>
+<!-- 2&#45;&gt;3 -->
+<g class="edge" id="edge3"><title>2-&gt;3</title>
+<path fill="none" stroke="black" d="M 1015.33 -310.574 C 913.154 -292.227 760.925 -264.89 659.981 -246.762" />
+<polygon fill="black" stroke="black" points="660.532,-243.305 650.071,-244.983 659.295,-250.195 660.532,-243.305" />
+</g>
+<!-- 10 -->
+<g class="node" id="node11"><title>10</title>
+<polygon fill="#39e5e2" fill-opacity="0.458824" stroke="black" points="1225,-261 1022,-261 1022,-193 1225,-193 1225,-261" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1123.5" y="-245.8">X[6] &lt;= -0.343</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1123.5" y="-230.8">entropy = 1.559</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1123.5" y="-215.8">samples = 616</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1123.5" y="-200.8">value = [2, 13, 142, 359, 95, 5, 0]</text>
+</g>
+<!-- 2&#45;&gt;10 -->
+<g class="edge" id="edge10"><title>2-&gt;10</title>
+<path fill="none" stroke="black" d="M 1123.5 -296.884 C 1123.5 -288.778 1123.5 -279.982 1123.5 -271.472" />
+<polygon fill="black" stroke="black" points="1127,-271.299 1123.5,-261.299 1120,-271.299 1127,-271.299" />
+</g>
+<!-- 4 -->
+<g class="node" id="node5"><title>4</title>
+<polygon fill="none" stroke="black" points="359.5,-157 183.5,-157 183.5,-89 359.5,-89 359.5,-157" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="271.5" y="-141.8">X[9] &lt;= 0.153</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="271.5" y="-126.8">entropy = 1.267</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="271.5" y="-111.8">samples = 44</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="271.5" y="-96.8">value = [1, 0, 21, 21, 1, 0, 0]</text>
+</g>
+<!-- 3&#45;&gt;4 -->
+<g class="edge" id="edge4"><title>3-&gt;4</title>
+<path fill="none" stroke="black" d="M 463.293 -192.884 C 433.333 -182.123 399.986 -170.147 369.611 -159.237" />
+<polygon fill="black" stroke="black" points="370.456,-155.822 359.862,-155.736 368.09,-162.41 370.456,-155.822" />
+</g>
+<!-- 7 -->
+<g class="node" id="node8"><title>7</title>
+<polygon fill="#b139e5" fill-opacity="0.133333" stroke="black" points="643.5,-157 467.5,-157 467.5,-89 643.5,-89 643.5,-157" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="555.5" y="-141.8">X[6] &lt;= 0.33</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="555.5" y="-126.8">entropy = 1.904</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="555.5" y="-111.8">samples = 42</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="555.5" y="-96.8">value = [0, 0, 6, 8, 12, 16, 0]</text>
+</g>
+<!-- 3&#45;&gt;7 -->
+<g class="edge" id="edge7"><title>3-&gt;7</title>
+<path fill="none" stroke="black" d="M 555.5 -192.884 C 555.5 -184.778 555.5 -175.982 555.5 -167.472" />
+<polygon fill="black" stroke="black" points="559,-167.299 555.5,-157.299 552,-167.299 559,-167.299" />
+</g>
+<!-- 5 -->
+<g class="node" id="node6"><title>5</title>
+<polygon fill="#39e5e2" fill-opacity="0.588235" stroke="black" points="169,-53 0,-53 0,0 169,0 169,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="84.5" y="-37.8">entropy = 0.871</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="84.5" y="-22.8">samples = 24</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="84.5" y="-7.8">value = [0, 0, 7, 17, 0, 0, 0]</text>
+</g>
+<!-- 4&#45;&gt;5 -->
+<g class="edge" id="edge5"><title>4-&gt;5</title>
+<path fill="none" stroke="black" d="M 206.096 -88.9485 C 186.002 -78.794 164 -67.675 144.301 -57.7203" />
+<polygon fill="black" stroke="black" points="145.636,-54.4732 135.132,-53.0867 142.478,-60.7208 145.636,-54.4732" />
+</g>
+<!-- 6 -->
+<g class="node" id="node7"><title>6</title>
+<polygon fill="#39e54d" fill-opacity="0.623529" stroke="black" points="356,-53 187,-53 187,0 356,0 356,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="271.5" y="-37.8">entropy = 1.257</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="271.5" y="-22.8">samples = 20</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="271.5" y="-7.8">value = [1, 0, 14, 4, 1, 0, 0]</text>
+</g>
+<!-- 4&#45;&gt;6 -->
+<g class="edge" id="edge6"><title>4-&gt;6</title>
+<path fill="none" stroke="black" d="M 271.5 -88.9485 C 271.5 -80.7153 271.5 -71.848 271.5 -63.4814" />
+<polygon fill="black" stroke="black" points="275,-63.2367 271.5,-53.2367 268,-63.2367 275,-63.2367" />
+</g>
+<!-- 8 -->
+<g class="node" id="node9"><title>8</title>
+<polygon fill="#3956e5" stroke="black" points="543,-53 374,-53 374,0 543,0 543,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="458.5" y="-37.8">entropy = 0.0</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="458.5" y="-22.8">samples = 11</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="458.5" y="-7.8">value = [0, 0, 0, 0, 11, 0, 0]</text>
+</g>
+<!-- 7&#45;&gt;8 -->
+<g class="edge" id="edge8"><title>7-&gt;8</title>
+<path fill="none" stroke="black" d="M 521.574 -88.9485 C 512.09 -79.709 501.787 -69.671 492.309 -60.4381" />
+<polygon fill="black" stroke="black" points="494.523,-57.7079 484.918,-53.2367 489.638,-62.7219 494.523,-57.7079" />
+</g>
+<!-- 9 -->
+<g class="node" id="node10"><title>9</title>
+<polygon fill="#b139e5" fill-opacity="0.34902" stroke="black" points="730,-53 561,-53 561,0 730,0 730,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="645.5" y="-37.8">entropy = 1.615</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="645.5" y="-22.8">samples = 31</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="645.5" y="-7.8">value = [0, 0, 6, 8, 1, 16, 0]</text>
+</g>
+<!-- 7&#45;&gt;9 -->
+<g class="edge" id="edge9"><title>7-&gt;9</title>
+<path fill="none" stroke="black" d="M 586.978 -88.9485 C 595.69 -79.8005 605.148 -69.8697 613.869 -60.7126" />
+<polygon fill="black" stroke="black" points="616.627,-62.8919 620.989,-53.2367 611.558,-58.0643 616.627,-62.8919" />
+</g>
+<!-- 11 -->
+<g class="node" id="node12"><title>11</title>
+<polygon fill="#39e5e2" fill-opacity="0.321569" stroke="black" points="1112.5,-157 930.5,-157 930.5,-89 1112.5,-89 1112.5,-157" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1021.5" y="-141.8">X[4] &lt;= 0.298</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1021.5" y="-126.8">entropy = 1.639</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1021.5" y="-111.8">samples = 168</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1021.5" y="-96.8">value = [1, 9, 53, 90, 13, 2, 0]</text>
+</g>
+<!-- 10&#45;&gt;11 -->
+<g class="edge" id="edge11"><title>10-&gt;11</title>
+<path fill="none" stroke="black" d="M 1090.38 -192.884 C 1081.3 -183.798 1071.35 -173.845 1061.9 -164.4" />
+<polygon fill="black" stroke="black" points="1064.35,-161.896 1054.8,-157.299 1059.4,-166.845 1064.35,-161.896" />
+</g>
+<!-- 14 -->
+<g class="node" id="node15"><title>14</title>
+<polygon fill="#39e5e2" fill-opacity="0.501961" stroke="black" points="1320,-157 1131,-157 1131,-89 1320,-89 1320,-157" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1225.5" y="-141.8">X[1] &lt;= -0.596</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1225.5" y="-126.8">entropy = 1.482</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1225.5" y="-111.8">samples = 448</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1225.5" y="-96.8">value = [1, 4, 89, 269, 82, 3, 0]</text>
+</g>
+<!-- 10&#45;&gt;14 -->
+<g class="edge" id="edge14"><title>10-&gt;14</title>
+<path fill="none" stroke="black" d="M 1156.62 -192.884 C 1165.7 -183.798 1175.65 -173.845 1185.1 -164.4" />
+<polygon fill="black" stroke="black" points="1187.6,-166.845 1192.2,-157.299 1182.65,-161.896 1187.6,-166.845" />
+</g>
+<!-- 12 -->
+<g class="node" id="node13"><title>12</title>
+<polygon fill="#39e5e2" fill-opacity="0.14902" stroke="black" points="924.5,-53 748.5,-53 748.5,0 924.5,0 924.5,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="836.5" y="-37.8">entropy = 1.602</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="836.5" y="-22.8">samples = 131</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="836.5" y="-7.8">value = [0, 8, 51, 63, 7, 2, 0]</text>
+</g>
+<!-- 11&#45;&gt;12 -->
+<g class="edge" id="edge12"><title>11-&gt;12</title>
+<path fill="none" stroke="black" d="M 956.796 -88.9485 C 936.917 -78.794 915.149 -67.675 895.661 -57.7203" />
+<polygon fill="black" stroke="black" points="897.088,-54.5188 886.59,-53.0867 893.904,-60.7526 897.088,-54.5188" />
+</g>
+<!-- 13 -->
+<g class="node" id="node14"><title>13</title>
+<polygon fill="#39e5e2" fill-opacity="0.678431" stroke="black" points="1112,-53 943,-53 943,0 1112,0 1112,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1027.5" y="-37.8">entropy = 1.266</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1027.5" y="-22.8">samples = 37</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1027.5" y="-7.8">value = [1, 1, 2, 27, 6, 0, 0]</text>
+</g>
+<!-- 11&#45;&gt;13 -->
+<g class="edge" id="edge13"><title>11-&gt;13</title>
+<path fill="none" stroke="black" d="M 1023.6 -88.9485 C 1024.12 -80.7153 1024.68 -71.848 1025.22 -63.4814" />
+<polygon fill="black" stroke="black" points="1028.73,-63.4384 1025.87,-53.2367 1021.74,-62.9948 1028.73,-63.4384" />
+</g>
+<!-- 15 -->
+<g class="node" id="node16"><title>15</title>
+<polygon fill="#39e5e2" fill-opacity="0.47451" stroke="black" points="1306.5,-53 1130.5,-53 1130.5,0 1306.5,0 1306.5,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1218.5" y="-37.8">entropy = 1.373</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1218.5" y="-22.8">samples = 112</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1218.5" y="-7.8">value = [1, 1, 32, 70, 7, 1, 0]</text>
+</g>
+<!-- 14&#45;&gt;15 -->
+<g class="edge" id="edge15"><title>14-&gt;15</title>
+<path fill="none" stroke="black" d="M 1223.05 -88.9485 C 1222.44 -80.7153 1221.79 -71.848 1221.17 -63.4814" />
+<polygon fill="black" stroke="black" points="1224.64,-62.9508 1220.41,-53.2367 1217.65,-63.468 1224.64,-62.9508" />
+</g>
+<!-- 16 -->
+<g class="node" id="node17"><title>16</title>
+<polygon fill="#39e5e2" fill-opacity="0.47451" stroke="black" points="1514,-53 1325,-53 1325,0 1514,0 1514,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1419.5" y="-37.8">entropy = 1.469</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1419.5" y="-22.8">samples = 336</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1419.5" y="-7.8">value = [0, 3, 57, 199, 75, 2, 0]</text>
+</g>
+<!-- 14&#45;&gt;16 -->
+<g class="edge" id="edge16"><title>14-&gt;16</title>
+<path fill="none" stroke="black" d="M 1293.35 -88.9485 C 1314.29 -78.748 1337.23 -67.5744 1357.74 -57.5852" />
+<polygon fill="black" stroke="black" points="1359.52,-60.6125 1366.97,-53.0867 1356.45,-54.3194 1359.52,-60.6125" />
+</g>
+<!-- 18 -->
+<g class="node" id="node19"><title>18</title>
+<polygon fill="#39e54d" fill-opacity="0.490196" stroke="black" points="2253,-261 2050,-261 2050,-193 2253,-193 2253,-261" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2151.5" y="-245.8">X[2] &lt;= -0.212</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2151.5" y="-230.8">entropy = 1.274</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2151.5" y="-215.8">samples = 1247</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2151.5" y="-200.8">value = [3, 53, 798, 366, 25, 2, 0]</text>
+</g>
+<!-- 17&#45;&gt;18 -->
+<g class="edge" id="edge18"><title>17-&gt;18</title>
+<path fill="none" stroke="black" d="M 2315.6 -296.884 C 2291.4 -286.722 2264.6 -275.476 2239.81 -265.069" />
+<polygon fill="black" stroke="black" points="2240.99,-261.768 2230.41,-261.125 2238.28,-268.222 2240.99,-261.768" />
+</g>
+<!-- 25 -->
+<g class="node" id="node26"><title>25</title>
+<polygon fill="#39e5e2" fill-opacity="0.098039" stroke="black" points="2643,-261 2440,-261 2440,-193 2643,-193 2643,-261" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2541.5" y="-245.8">X[4] &lt;= -0.766</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2541.5" y="-230.8">entropy = 1.68</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2541.5" y="-215.8">samples = 618</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2541.5" y="-200.8">value = [3, 34, 243, 280, 53, 4, 1]</text>
+</g>
+<!-- 17&#45;&gt;25 -->
+<g class="edge" id="edge25"><title>17-&gt;25</title>
+<path fill="none" stroke="black" d="M 2442.23 -296.884 C 2456.03 -287.304 2471.23 -276.761 2485.49 -266.864" />
+<polygon fill="black" stroke="black" points="2487.54,-269.701 2493.76,-261.125 2483.55,-263.95 2487.54,-269.701" />
+</g>
+<!-- 19 -->
+<g class="node" id="node20"><title>19</title>
+<polygon fill="#39e54d" fill-opacity="0.278431" stroke="black" points="1939,-157 1736,-157 1736,-89 1939,-89 1939,-157" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1837.5" y="-141.8">X[4] &lt;= 1.616</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1837.5" y="-126.8">entropy = 1.352</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1837.5" y="-111.8">samples = 437</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1837.5" y="-96.8">value = [0, 10, 241, 165, 20, 1, 0]</text>
+</g>
+<!-- 18&#45;&gt;19 -->
+<g class="edge" id="edge19"><title>18-&gt;19</title>
+<path fill="none" stroke="black" d="M 2049.99 -193.024 C 2017.7 -182.535 1981.81 -170.879 1948.87 -160.176" />
+<polygon fill="black" stroke="black" points="1949.79,-156.797 1939.2,-157.037 1947.63,-163.455 1949.79,-156.797" />
+</g>
+<!-- 22 -->
+<g class="node" id="node23"><title>22</title>
+<polygon fill="#39e54d" fill-opacity="0.584314" stroke="black" points="2249.5,-157 2053.5,-157 2053.5,-89 2249.5,-89 2249.5,-157" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2151.5" y="-141.8">X[1] &lt;= 2.077</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2151.5" y="-126.8">entropy = 1.182</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2151.5" y="-111.8">samples = 810</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2151.5" y="-96.8">value = [3, 43, 557, 201, 5, 1, 0]</text>
+</g>
+<!-- 18&#45;&gt;22 -->
+<g class="edge" id="edge22"><title>18-&gt;22</title>
+<path fill="none" stroke="black" d="M 2151.5 -192.884 C 2151.5 -184.778 2151.5 -175.982 2151.5 -167.472" />
+<polygon fill="black" stroke="black" points="2155,-167.299 2151.5,-157.299 2148,-167.299 2155,-167.299" />
+</g>
+<!-- 20 -->
+<g class="node" id="node21"><title>20</title>
+<polygon fill="#39e54d" fill-opacity="0.298039" stroke="black" points="1728.5,-53 1532.5,-53 1532.5,0 1728.5,0 1728.5,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1630.5" y="-37.8">entropy = 1.279</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1630.5" y="-22.8">samples = 307</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1630.5" y="-7.8">value = [0, 10, 174, 117, 5, 1, 0]</text>
+</g>
+<!-- 19&#45;&gt;20 -->
+<g class="edge" id="edge20"><title>19-&gt;20</title>
+<path fill="none" stroke="black" d="M 1765.1 -88.9485 C 1742.56 -78.6562 1717.84 -67.3729 1695.81 -57.3155" />
+<polygon fill="black" stroke="black" points="1697.1,-54.0558 1686.55,-53.0867 1694.19,-60.4236 1697.1,-54.0558" />
+</g>
+<!-- 21 -->
+<g class="node" id="node22"><title>21</title>
+<polygon fill="#39e54d" fill-opacity="0.231373" stroke="black" points="1928.5,-53 1746.5,-53 1746.5,0 1928.5,0 1928.5,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1837.5" y="-37.8">entropy = 1.383</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1837.5" y="-22.8">samples = 130</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="1837.5" y="-7.8">value = [0, 0, 67, 48, 15, 0, 0]</text>
+</g>
+<!-- 19&#45;&gt;21 -->
+<g class="edge" id="edge21"><title>19-&gt;21</title>
+<path fill="none" stroke="black" d="M 1837.5 -88.9485 C 1837.5 -80.7153 1837.5 -71.848 1837.5 -63.4814" />
+<polygon fill="black" stroke="black" points="1841,-63.2367 1837.5,-53.2367 1834,-63.2367 1841,-63.2367" />
+</g>
+<!-- 23 -->
+<g class="node" id="node24"><title>23</title>
+<polygon fill="#39e54d" fill-opacity="0.615686" stroke="black" points="2142.5,-53 1946.5,-53 1946.5,0 2142.5,0 2142.5,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2044.5" y="-37.8">entropy = 1.132</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2044.5" y="-22.8">samples = 766</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2044.5" y="-7.8">value = [1, 41, 540, 179, 5, 0, 0]</text>
+</g>
+<!-- 22&#45;&gt;23 -->
+<g class="edge" id="edge23"><title>22-&gt;23</title>
+<path fill="none" stroke="black" d="M 2114.08 -88.9485 C 2103.41 -79.526 2091.8 -69.2731 2081.18 -59.8906" />
+<polygon fill="black" stroke="black" points="2083.45,-57.2331 2073.64,-53.2367 2078.82,-62.4798 2083.45,-57.2331" />
+</g>
+<!-- 24 -->
+<g class="node" id="node25"><title>24</title>
+<polygon fill="#39e5e2" fill-opacity="0.184314" stroke="black" points="2336.5,-53 2160.5,-53 2160.5,0 2336.5,0 2336.5,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2248.5" y="-37.8">entropy = 1.56</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2248.5" y="-22.8">samples = 44</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2248.5" y="-7.8">value = [2, 2, 17, 22, 0, 1, 0]</text>
+</g>
+<!-- 22&#45;&gt;24 -->
+<g class="edge" id="edge24"><title>22-&gt;24</title>
+<path fill="none" stroke="black" d="M 2185.43 -88.9485 C 2194.91 -79.709 2205.21 -69.671 2214.69 -60.4381" />
+<polygon fill="black" stroke="black" points="2217.36,-62.7219 2222.08,-53.2367 2212.48,-57.7079 2217.36,-62.7219" />
+</g>
+<!-- 26 -->
+<g class="node" id="node27"><title>26</title>
+<polygon fill="#39e54d" fill-opacity="0.078431" stroke="black" points="2636,-157 2447,-157 2447,-89 2636,-89 2636,-157" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2541.5" y="-141.8">X[10] &lt;= -0.371</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2541.5" y="-126.8">entropy = 2.005</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2541.5" y="-111.8">samples = 168</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2541.5" y="-96.8">value = [2, 21, 64, 55, 23, 3, 0]</text>
+</g>
+<!-- 25&#45;&gt;26 -->
+<g class="edge" id="edge26"><title>25-&gt;26</title>
+<path fill="none" stroke="black" d="M 2541.5 -192.884 C 2541.5 -184.778 2541.5 -175.982 2541.5 -167.472" />
+<polygon fill="black" stroke="black" points="2545,-167.299 2541.5,-157.299 2538,-167.299 2545,-167.299" />
+</g>
+<!-- 29 -->
+<g class="node" id="node30"><title>29</title>
+<polygon fill="#39e5e2" fill-opacity="0.168627" stroke="black" points="2952,-157 2749,-157 2749,-89 2952,-89 2952,-157" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2850.5" y="-141.8">X[2] &lt;= -0.382</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2850.5" y="-126.8">entropy = 1.496</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2850.5" y="-111.8">samples = 450</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2850.5" y="-96.8">value = [1, 13, 179, 225, 30, 1, 1]</text>
+</g>
+<!-- 25&#45;&gt;29 -->
+<g class="edge" id="edge29"><title>25-&gt;29</title>
+<path fill="none" stroke="black" d="M 2641.82 -192.884 C 2673.36 -182.472 2708.35 -170.922 2740.53 -160.301" />
+<polygon fill="black" stroke="black" points="2742.02,-163.496 2750.42,-157.038 2739.82,-156.849 2742.02,-163.496" />
+</g>
+<!-- 27 -->
+<g class="node" id="node28"><title>27</title>
+<polygon fill="#39e54d" fill-opacity="0.384314" stroke="black" points="2536.5,-53 2354.5,-53 2354.5,0 2536.5,0 2536.5,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2445.5" y="-37.8">entropy = 1.58</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2445.5" y="-22.8">samples = 63</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2445.5" y="-7.8">value = [0, 11, 34, 16, 2, 0, 0]</text>
+</g>
+<!-- 26&#45;&gt;27 -->
+<g class="edge" id="edge27"><title>26-&gt;27</title>
+<path fill="none" stroke="black" d="M 2507.92 -88.9485 C 2498.54 -79.709 2488.34 -69.671 2478.96 -60.4381" />
+<polygon fill="black" stroke="black" points="2481.23,-57.7576 2471.65,-53.2367 2476.32,-62.7462 2481.23,-57.7576" />
+</g>
+<!-- 28 -->
+<g class="node" id="node29"><title>28</title>
+<polygon fill="#39e5e2" fill-opacity="0.121569" stroke="black" points="2744,-53 2555,-53 2555,0 2744,0 2744,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2649.5" y="-37.8">entropy = 2.09</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2649.5" y="-22.8">samples = 105</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2649.5" y="-7.8">value = [2, 10, 30, 39, 21, 3, 0]</text>
+</g>
+<!-- 26&#45;&gt;28 -->
+<g class="edge" id="edge28"><title>26-&gt;28</title>
+<path fill="none" stroke="black" d="M 2579.27 -88.9485 C 2590.04 -79.526 2601.76 -69.2731 2612.48 -59.8906" />
+<polygon fill="black" stroke="black" points="2614.87,-62.4558 2620.09,-53.2367 2610.26,-57.1878 2614.87,-62.4558" />
+</g>
+<!-- 30 -->
+<g class="node" id="node31"><title>30</title>
+<polygon fill="#39e5e2" fill-opacity="0.439216" stroke="black" points="2938.5,-53 2762.5,-53 2762.5,0 2938.5,0 2938.5,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2850.5" y="-37.8">entropy = 1.454</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2850.5" y="-22.8">samples = 105</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="2850.5" y="-7.8">value = [1, 0, 30, 63, 9, 1, 1]</text>
+</g>
+<!-- 29&#45;&gt;30 -->
+<g class="edge" id="edge30"><title>29-&gt;30</title>
+<path fill="none" stroke="black" d="M 2850.5 -88.9485 C 2850.5 -80.7153 2850.5 -71.848 2850.5 -63.4814" />
+<polygon fill="black" stroke="black" points="2854,-63.2367 2850.5,-53.2367 2847,-63.2367 2854,-63.2367" />
+</g>
+<!-- 31 -->
+<g class="node" id="node32"><title>31</title>
+<polygon fill="#39e5e2" fill-opacity="0.066667" stroke="black" points="3160,-53 2957,-53 2957,0 3160,0 3160,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3058.5" y="-37.8">entropy = 1.459</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3058.5" y="-22.8">samples = 345</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3058.5" y="-7.8">value = [0, 13, 149, 162, 21, 0, 0]</text>
+</g>
+<!-- 29&#45;&gt;31 -->
+<g class="edge" id="edge31"><title>29-&gt;31</title>
+<path fill="none" stroke="black" d="M 2923.25 -88.9485 C 2945.9 -78.6562 2970.74 -67.3729 2992.87 -57.3155" />
+<polygon fill="black" stroke="black" points="2994.53,-60.4097 3002.18,-53.0867 2991.63,-54.0366 2994.53,-60.4097" />
+</g>
+<!-- 33 -->
+<g class="node" id="node34"><title>33</title>
+<polygon fill="#39e5e2" fill-opacity="0.341176" stroke="black" points="4081.5,-365 3865.5,-365 3865.5,-297 4081.5,-297 4081.5,-365" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3973.5" y="-349.8">X[2] &lt;= 0.235</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3973.5" y="-334.8">entropy = 1.82</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3973.5" y="-319.8">samples = 988</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3973.5" y="-304.8">value = [8, 30, 180, 495, 241, 34, 0]</text>
+</g>
+<!-- 32&#45;&gt;33 -->
+<g class="edge" id="edge33"><title>32-&gt;33</title>
+<path fill="none" stroke="black" d="M 3973.5 -400.884 C 3973.5 -392.778 3973.5 -383.982 3973.5 -375.472" />
+<polygon fill="black" stroke="black" points="3977,-375.299 3973.5,-365.299 3970,-375.299 3977,-375.299" />
+</g>
+<!-- 48 -->
+<g class="node" id="node49"><title>48</title>
+<polygon fill="#39e5e2" fill-opacity="0.090196" stroke="black" points="5215,-365 5012,-365 5012,-297 5215,-297 5215,-365" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5113.5" y="-349.8">X[6] &lt;= -0.511</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5113.5" y="-334.8">entropy = 1.717</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5113.5" y="-319.8">samples = 775</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5113.5" y="-304.8">value = [2, 9, 36, 345, 302, 78, 3]</text>
+</g>
+<!-- 32&#45;&gt;48 -->
+<g class="edge" id="edge48"><title>32-&gt;48</title>
+<path fill="none" stroke="black" d="M 4088.55 -423.706 C 4308.24 -404.05 4784.84 -361.407 5001.84 -341.991" />
+<polygon fill="black" stroke="black" points="5002.33,-345.461 5011.98,-341.084 5001.7,-338.489 5002.33,-345.461" />
+</g>
+<!-- 34 -->
+<g class="node" id="node35"><title>34</title>
+<polygon fill="#39e5e2" fill-opacity="0.309804" stroke="black" points="3891,-261 3682,-261 3682,-193 3891,-193 3891,-261" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3786.5" y="-245.8">X[10] &lt;= 0.03</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3786.5" y="-230.8">entropy = 1.752</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3786.5" y="-215.8">samples = 758</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3786.5" y="-200.8">value = [4, 9, 121, 380, 210, 34, 0]</text>
+</g>
+<!-- 33&#45;&gt;34 -->
+<g class="edge" id="edge34"><title>33-&gt;34</title>
+<path fill="none" stroke="black" d="M 3912.79 -296.884 C 3894.73 -287.035 3874.81 -276.169 3856.23 -266.034" />
+<polygon fill="black" stroke="black" points="3857.68,-262.841 3847.23,-261.125 3854.33,-268.986 3857.68,-262.841" />
+</g>
+<!-- 41 -->
+<g class="node" id="node42"><title>41</title>
+<polygon fill="#39e5e2" fill-opacity="0.329412" stroke="black" points="4263.5,-261 4067.5,-261 4067.5,-193 4263.5,-193 4263.5,-261" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="4165.5" y="-245.8">X[2] &lt;= 3.276</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="4165.5" y="-230.8">entropy = 1.81</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="4165.5" y="-215.8">samples = 230</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="4165.5" y="-200.8">value = [4, 21, 59, 115, 31, 0, 0]</text>
+</g>
+<!-- 33&#45;&gt;41 -->
+<g class="edge" id="edge41"><title>33-&gt;41</title>
+<path fill="none" stroke="black" d="M 4035.84 -296.884 C 4054.46 -286.991 4075.02 -276.07 4094.17 -265.895" />
+<polygon fill="black" stroke="black" points="4095.96,-268.907 4103.15,-261.125 4092.67,-262.725 4095.96,-268.907" />
+</g>
+<!-- 35 -->
+<g class="node" id="node36"><title>35</title>
+<polygon fill="#39e5e2" fill-opacity="0.384314" stroke="black" points="3568,-157 3365,-157 3365,-89 3568,-89 3568,-157" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3466.5" y="-141.8">X[6] &lt;= -1.185</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3466.5" y="-126.8">entropy = 1.78</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3466.5" y="-111.8">samples = 466</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3466.5" y="-96.8">value = [4, 6, 92, 241, 101, 22, 0]</text>
+</g>
+<!-- 34&#45;&gt;35 -->
+<g class="edge" id="edge35"><title>34-&gt;35</title>
+<path fill="none" stroke="black" d="M 3682.61 -192.884 C 3649.22 -182.242 3612.1 -170.41 3578.18 -159.598" />
+<polygon fill="black" stroke="black" points="3578.83,-156.131 3568.24,-156.428 3576.7,-162.8 3578.83,-156.131" />
+</g>
+<!-- 38 -->
+<g class="node" id="node39"><title>38</title>
+<polygon fill="#39e5e2" fill-opacity="0.164706" stroke="black" points="3888,-157 3685,-157 3685,-89 3888,-89 3888,-157" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3786.5" y="-141.8">X[6] &lt;= 1.228</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3786.5" y="-126.8">entropy = 1.628</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3786.5" y="-111.8">samples = 292</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3786.5" y="-96.8">value = [0, 3, 29, 139, 109, 12, 0]</text>
+</g>
+<!-- 34&#45;&gt;38 -->
+<g class="edge" id="edge38"><title>34-&gt;38</title>
+<path fill="none" stroke="black" d="M 3786.5 -192.884 C 3786.5 -184.778 3786.5 -175.982 3786.5 -167.472" />
+<polygon fill="black" stroke="black" points="3790,-167.299 3786.5,-157.299 3783,-167.299 3790,-167.299" />
+</g>
+<!-- 36 -->
+<g class="node" id="node37"><title>36</title>
+<polygon fill="#39e54d" fill-opacity="0.352941" stroke="black" points="3347,-53 3178,-53 3178,0 3347,0 3347,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3262.5" y="-37.8">entropy = 1.838</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3262.5" y="-22.8">samples = 22</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3262.5" y="-7.8">value = [1, 4, 11, 5, 1, 0, 0]</text>
+</g>
+<!-- 35&#45;&gt;36 -->
+<g class="edge" id="edge36"><title>35-&gt;36</title>
+<path fill="none" stroke="black" d="M 3395.15 -88.9485 C 3372.93 -78.6562 3348.57 -67.3729 3326.86 -57.3155" />
+<polygon fill="black" stroke="black" points="3328.28,-54.1142 3317.73,-53.0867 3325.34,-60.4658 3328.28,-54.1142" />
+</g>
+<!-- 37 -->
+<g class="node" id="node38"><title>37</title>
+<polygon fill="#39e5e2" fill-opacity="0.396078" stroke="black" points="3568,-53 3365,-53 3365,0 3568,0 3568,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3466.5" y="-37.8">entropy = 1.715</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3466.5" y="-22.8">samples = 444</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3466.5" y="-7.8">value = [3, 2, 81, 236, 100, 22, 0]</text>
+</g>
+<!-- 35&#45;&gt;37 -->
+<g class="edge" id="edge37"><title>35-&gt;37</title>
+<path fill="none" stroke="black" d="M 3466.5 -88.9485 C 3466.5 -80.7153 3466.5 -71.848 3466.5 -63.4814" />
+<polygon fill="black" stroke="black" points="3470,-63.2367 3466.5,-53.2367 3463,-63.2367 3470,-63.2367" />
+</g>
+<!-- 39 -->
+<g class="node" id="node40"><title>39</title>
+<polygon fill="#39e5e2" fill-opacity="0.258824" stroke="black" points="3782.5,-53 3586.5,-53 3586.5,0 3782.5,0 3782.5,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3684.5" y="-37.8">entropy = 1.632</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3684.5" y="-22.8">samples = 261</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3684.5" y="-7.8">value = [0, 3, 29, 132, 87, 10, 0]</text>
+</g>
+<!-- 38&#45;&gt;39 -->
+<g class="edge" id="edge39"><title>38-&gt;39</title>
+<path fill="none" stroke="black" d="M 3750.83 -88.9485 C 3740.75 -79.6175 3729.8 -69.4722 3719.76 -60.1641" />
+<polygon fill="black" stroke="black" points="3721.99,-57.4655 3712.28,-53.2367 3717.24,-62.6004 3721.99,-57.4655" />
+</g>
+<!-- 40 -->
+<g class="node" id="node41"><title>40</title>
+<polygon fill="#3956e5" fill-opacity="0.623529" stroke="black" points="3970,-53 3801,-53 3801,0 3970,0 3970,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3885.5" y="-37.8">entropy = 1.091</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3885.5" y="-22.8">samples = 31</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="3885.5" y="-7.8">value = [0, 0, 0, 7, 22, 2, 0]</text>
+</g>
+<!-- 38&#45;&gt;40 -->
+<g class="edge" id="edge40"><title>38-&gt;40</title>
+<path fill="none" stroke="black" d="M 3821.13 -88.9485 C 3830.9 -79.6175 3841.53 -69.4722 3851.28 -60.1641" />
+<polygon fill="black" stroke="black" points="3853.72,-62.6732 3858.54,-53.2367 3848.89,-57.6097 3853.72,-62.6732" />
+</g>
+<!-- 42 -->
+<g class="node" id="node43"><title>42</title>
+<polygon fill="#39e5e2" fill-opacity="0.388235" stroke="black" points="4263.5,-157 4067.5,-157 4067.5,-89 4263.5,-89 4263.5,-157" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="4165.5" y="-141.8">X[4] &lt;= -0.829</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="4165.5" y="-126.8">entropy = 1.692</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="4165.5" y="-111.8">samples = 211</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="4165.5" y="-96.8">value = [1, 15, 51, 113, 31, 0, 0]</text>
+</g>
+<!-- 41&#45;&gt;42 -->
+<g class="edge" id="edge42"><title>41-&gt;42</title>
+<path fill="none" stroke="black" d="M 4165.5 -192.884 C 4165.5 -184.778 4165.5 -175.982 4165.5 -167.472" />
+<polygon fill="black" stroke="black" points="4169,-167.299 4165.5,-157.299 4162,-167.299 4169,-167.299" />
+</g>
+<!-- 45 -->
+<g class="node" id="node46"><title>45</title>
+<polygon fill="#39e54d" fill-opacity="0.152941" stroke="black" points="4538.5,-157 4376.5,-157 4376.5,-89 4538.5,-89 4538.5,-157" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="4457.5" y="-141.8">X[10] &lt;= 0.097</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="4457.5" y="-126.8">entropy = 1.813</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="4457.5" y="-111.8">samples = 19</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="4457.5" y="-96.8">value = [3, 6, 8, 2, 0, 0, 0]</text>
+</g>
+<!-- 41&#45;&gt;45 -->
+<g class="edge" id="edge45"><title>41-&gt;45</title>
+<path fill="none" stroke="black" d="M 4260.3 -192.884 C 4294.41 -180.971 4332.78 -167.568 4366.54 -155.773" />
+<polygon fill="black" stroke="black" points="4368.11,-158.932 4376.4,-152.33 4365.8,-152.323 4368.11,-158.932" />
+</g>
+<!-- 43 -->
+<g class="node" id="node44"><title>43</title>
+<polygon fill="#39e54d" fill-opacity="0.223529" stroke="black" points="4150.5,-53 3988.5,-53 3988.5,0 4150.5,0 4150.5,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="4069.5" y="-37.8">entropy = 1.273</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="4069.5" y="-22.8">samples = 15</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="4069.5" y="-7.8">value = [0, 6, 8, 1, 0, 0, 0]</text>
+</g>
+<!-- 42&#45;&gt;43 -->
+<g class="edge" id="edge43"><title>42-&gt;43</title>
+<path fill="none" stroke="black" d="M 4131.92 -88.9485 C 4122.54 -79.709 4112.34 -69.671 4102.96 -60.4381" />
+<polygon fill="black" stroke="black" points="4105.23,-57.7576 4095.65,-53.2367 4100.32,-62.7462 4105.23,-57.7576" />
+</g>
+<!-- 44 -->
+<g class="node" id="node45"><title>44</title>
+<polygon fill="#39e5e2" fill-opacity="0.45098" stroke="black" points="4358,-53 4169,-53 4169,0 4358,0 4358,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="4263.5" y="-37.8">entropy = 1.605</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="4263.5" y="-22.8">samples = 196</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="4263.5" y="-7.8">value = [1, 9, 43, 112, 31, 0, 0]</text>
+</g>
+<!-- 42&#45;&gt;44 -->
+<g class="edge" id="edge44"><title>42-&gt;44</title>
+<path fill="none" stroke="black" d="M 4199.78 -88.9485 C 4209.36 -79.709 4219.77 -69.671 4229.34 -60.4381" />
+<polygon fill="black" stroke="black" points="4232.04,-62.6976 4236.81,-53.2367 4227.18,-57.6586 4232.04,-62.6976" />
+</g>
+<!-- 46 -->
+<g class="node" id="node47"><title>46</title>
+<polygon fill="#39e54d" fill-opacity="0.427451" stroke="black" points="4538.5,-53 4376.5,-53 4376.5,0 4538.5,0 4538.5,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="4457.5" y="-37.8">entropy = 1.295</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="4457.5" y="-22.8">samples = 10</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="4457.5" y="-7.8">value = [3, 1, 6, 0, 0, 0, 0]</text>
+</g>
+<!-- 45&#45;&gt;46 -->
+<g class="edge" id="edge46"><title>45-&gt;46</title>
+<path fill="none" stroke="black" d="M 4457.5 -88.9485 C 4457.5 -80.7153 4457.5 -71.848 4457.5 -63.4814" />
+<polygon fill="black" stroke="black" points="4461,-63.2367 4457.5,-53.2367 4454,-63.2367 4461,-63.2367" />
+</g>
+<!-- 47 -->
+<g class="node" id="node48"><title>47</title>
+<polygon fill="#b7e539" fill-opacity="0.427451" stroke="black" points="4718.5,-53 4556.5,-53 4556.5,0 4718.5,0 4718.5,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="4637.5" y="-37.8">entropy = 1.436</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="4637.5" y="-22.8">samples = 9</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="4637.5" y="-7.8">value = [0, 5, 2, 2, 0, 0, 0]</text>
+</g>
+<!-- 45&#45;&gt;47 -->
+<g class="edge" id="edge47"><title>45-&gt;47</title>
+<path fill="none" stroke="black" d="M 4520.46 -88.9485 C 4539.71 -78.8399 4560.78 -67.7756 4579.68 -57.8555" />
+<polygon fill="black" stroke="black" points="4581.54,-60.834 4588.76,-53.0867 4578.28,-54.6362 4581.54,-60.834" />
+</g>
+<!-- 49 -->
+<g class="node" id="node50"><title>49</title>
+<polygon fill="#39e5e2" fill-opacity="0.290196" stroke="black" points="5211.5,-261 5015.5,-261 5015.5,-193 5211.5,-193 5211.5,-261" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5113.5" y="-245.8">X[10] &lt;= 1.434</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5113.5" y="-230.8">entropy = 1.707</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5113.5" y="-215.8">samples = 269</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5113.5" y="-200.8">value = [2, 9, 17, 140, 87, 14, 0]</text>
+</g>
+<!-- 48&#45;&gt;49 -->
+<g class="edge" id="edge49"><title>48-&gt;49</title>
+<path fill="none" stroke="black" d="M 5113.5 -296.884 C 5113.5 -288.778 5113.5 -279.982 5113.5 -271.472" />
+<polygon fill="black" stroke="black" points="5117,-271.299 5113.5,-261.299 5110,-271.299 5117,-271.299" />
+</g>
+<!-- 56 -->
+<g class="node" id="node57"><title>56</title>
+<polygon fill="#3956e5" fill-opacity="0.031373" stroke="black" points="5780,-261 5577,-261 5577,-193 5780,-193 5780,-261" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5678.5" y="-245.8">X[4] &lt;= -0.792</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5678.5" y="-230.8">entropy = 1.652</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5678.5" y="-215.8">samples = 506</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5678.5" y="-200.8">value = [0, 0, 19, 205, 215, 64, 3]</text>
+</g>
+<!-- 48&#45;&gt;56 -->
+<g class="edge" id="edge56"><title>48-&gt;56</title>
+<path fill="none" stroke="black" d="M 5215.16 -311.647 C 5314.17 -293.773 5464.3 -266.67 5566.64 -248.194" />
+<polygon fill="black" stroke="black" points="5567.48,-251.599 5576.7,-246.378 5566.24,-244.71 5567.48,-251.599" />
+</g>
+<!-- 50 -->
+<g class="node" id="node51"><title>50</title>
+<polygon fill="#39e5e2" fill-opacity="0.435294" stroke="black" points="5109.5,-157 4913.5,-157 4913.5,-89 5109.5,-89 5109.5,-157" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5011.5" y="-141.8">X[2] &lt;= 0.899</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5011.5" y="-126.8">entropy = 1.665</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5011.5" y="-111.8">samples = 224</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5011.5" y="-96.8">value = [2, 8, 16, 130, 58, 10, 0]</text>
+</g>
+<!-- 49&#45;&gt;50 -->
+<g class="edge" id="edge50"><title>49-&gt;50</title>
+<path fill="none" stroke="black" d="M 5080.38 -192.884 C 5071.3 -183.798 5061.35 -173.845 5051.9 -164.4" />
+<polygon fill="black" stroke="black" points="5054.35,-161.896 5044.8,-157.299 5049.4,-166.845 5054.35,-161.896" />
+</g>
+<!-- 53 -->
+<g class="node" id="node54"><title>53</title>
+<polygon fill="#3956e5" fill-opacity="0.541176" stroke="black" points="5303.5,-157 5127.5,-157 5127.5,-89 5303.5,-89 5303.5,-157" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5215.5" y="-141.8">X[4] &lt;= -0.808</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5215.5" y="-126.8">entropy = 1.445</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5215.5" y="-111.8">samples = 45</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5215.5" y="-96.8">value = [0, 1, 1, 10, 29, 4, 0]</text>
+</g>
+<!-- 49&#45;&gt;53 -->
+<g class="edge" id="edge53"><title>49-&gt;53</title>
+<path fill="none" stroke="black" d="M 5146.62 -192.884 C 5155.7 -183.798 5165.65 -173.845 5175.1 -164.4" />
+<polygon fill="black" stroke="black" points="5177.6,-166.845 5182.2,-157.299 5172.65,-161.896 5177.6,-166.845" />
+</g>
+<!-- 51 -->
+<g class="node" id="node52"><title>51</title>
+<polygon fill="#39e5e2" fill-opacity="0.407843" stroke="black" points="4918.5,-53 4736.5,-53 4736.5,0 4918.5,0 4918.5,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="4827.5" y="-37.8">entropy = 1.555</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="4827.5" y="-22.8">samples = 185</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="4827.5" y="-7.8">value = [2, 4, 9, 108, 55, 7, 0]</text>
+</g>
+<!-- 50&#45;&gt;51 -->
+<g class="edge" id="edge51"><title>50-&gt;51</title>
+<path fill="none" stroke="black" d="M 4947.15 -88.9485 C 4927.37 -78.794 4905.72 -67.675 4886.34 -57.7203" />
+<polygon fill="black" stroke="black" points="4887.81,-54.5419 4877.32,-53.0867 4884.62,-60.7687 4887.81,-54.5419" />
+</g>
+<!-- 52 -->
+<g class="node" id="node53"><title>52</title>
+<polygon fill="#39e5e2" fill-opacity="0.470588" stroke="black" points="5106,-53 4937,-53 4937,0 5106,0 5106,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5021.5" y="-37.8">entropy = 1.817</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5021.5" y="-22.8">samples = 39</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5021.5" y="-7.8">value = [0, 4, 7, 22, 3, 3, 0]</text>
+</g>
+<!-- 50&#45;&gt;52 -->
+<g class="edge" id="edge52"><title>50-&gt;52</title>
+<path fill="none" stroke="black" d="M 5015 -88.9485 C 5015.88 -80.6238 5016.83 -71.6509 5017.72 -63.2027" />
+<polygon fill="black" stroke="black" points="5021.2,-63.5495 5018.78,-53.2367 5014.24,-62.8128 5021.2,-63.5495" />
+</g>
+<!-- 54 -->
+<g class="node" id="node55"><title>54</title>
+<polygon fill="#b139e5" stroke="black" points="5286.5,-53 5124.5,-53 5124.5,0 5286.5,0 5286.5,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5205.5" y="-37.8">entropy = 0.0</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5205.5" y="-22.8">samples = 3</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5205.5" y="-7.8">value = [0, 0, 0, 0, 0, 3, 0]</text>
+</g>
+<!-- 53&#45;&gt;54 -->
+<g class="edge" id="edge54"><title>53-&gt;54</title>
+<path fill="none" stroke="black" d="M 5212 -88.9485 C 5211.12 -80.6238 5210.17 -71.6509 5209.28 -63.2027" />
+<polygon fill="black" stroke="black" points="5212.76,-62.8128 5208.22,-53.2367 5205.8,-63.5495 5212.76,-62.8128" />
+</g>
+<!-- 55 -->
+<g class="node" id="node56"><title>55</title>
+<polygon fill="#3956e5" fill-opacity="0.592157" stroke="black" points="5480.5,-53 5304.5,-53 5304.5,0 5480.5,0 5480.5,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5392.5" y="-37.8">entropy = 1.247</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5392.5" y="-22.8">samples = 42</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5392.5" y="-7.8">value = [0, 1, 1, 10, 29, 1, 0]</text>
+</g>
+<!-- 53&#45;&gt;55 -->
+<g class="edge" id="edge55"><title>53-&gt;55</title>
+<path fill="none" stroke="black" d="M 5277.41 -88.9485 C 5296.34 -78.8399 5317.06 -67.7756 5335.64 -57.8555" />
+<polygon fill="black" stroke="black" points="5337.4,-60.884 5344.58,-53.0867 5334.11,-54.709 5337.4,-60.884" />
+</g>
+<!-- 57 -->
+<g class="node" id="node58"><title>57</title>
+<polygon fill="#39e5e2" fill-opacity="0.415686" stroke="black" points="5766.5,-157 5590.5,-157 5590.5,-89 5766.5,-89 5766.5,-157" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5678.5" y="-141.8">X[1] &lt;= 0.168</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5678.5" y="-126.8">entropy = 1.5</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5678.5" y="-111.8">samples = 124</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5678.5" y="-96.8">value = [0, 0, 9, 72, 35, 8, 0]</text>
+</g>
+<!-- 56&#45;&gt;57 -->
+<g class="edge" id="edge57"><title>56-&gt;57</title>
+<path fill="none" stroke="black" d="M 5678.5 -192.884 C 5678.5 -184.778 5678.5 -175.982 5678.5 -167.472" />
+<polygon fill="black" stroke="black" points="5682,-167.299 5678.5,-157.299 5675,-167.299 5682,-167.299" />
+</g>
+<!-- 60 -->
+<g class="node" id="node61"><title>60</title>
+<polygon fill="#3956e5" fill-opacity="0.188235" stroke="black" points="6080,-157 5877,-157 5877,-89 6080,-89 6080,-157" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5978.5" y="-141.8">X[6] &lt;= 1.256</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5978.5" y="-126.8">entropy = 1.64</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5978.5" y="-111.8">samples = 382</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5978.5" y="-96.8">value = [0, 0, 10, 133, 180, 56, 3]</text>
+</g>
+<!-- 56&#45;&gt;60 -->
+<g class="edge" id="edge60"><title>56-&gt;60</title>
+<path fill="none" stroke="black" d="M 5775.9 -192.884 C 5806.52 -182.472 5840.49 -170.922 5871.73 -160.301" />
+<polygon fill="black" stroke="black" points="5872.99,-163.57 5881.33,-157.038 5870.74,-156.943 5872.99,-163.57" />
+</g>
+<!-- 58 -->
+<g class="node" id="node59"><title>58</title>
+<polygon fill="#39e5e2" fill-opacity="0.223529" stroke="black" points="5674.5,-53 5498.5,-53 5498.5,0 5674.5,0 5674.5,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5586.5" y="-37.8">entropy = 1.603</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5586.5" y="-22.8">samples = 97</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5586.5" y="-7.8">value = [0, 0, 7, 48, 34, 8, 0]</text>
+</g>
+<!-- 57&#45;&gt;58 -->
+<g class="edge" id="edge58"><title>57-&gt;58</title>
+<path fill="none" stroke="black" d="M 5646.32 -88.9485 C 5637.33 -79.709 5627.56 -69.671 5618.57 -60.4381" />
+<polygon fill="black" stroke="black" points="5621.04,-57.9605 5611.56,-53.2367 5616.02,-62.8434 5621.04,-57.9605" />
+</g>
+<!-- 59 -->
+<g class="node" id="node60"><title>59</title>
+<polygon fill="#39e5e2" fill-opacity="0.878431" stroke="black" points="5862,-53 5693,-53 5693,0 5862,0 5862,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5777.5" y="-37.8">entropy = 0.605</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5777.5" y="-22.8">samples = 27</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5777.5" y="-7.8">value = [0, 0, 2, 24, 1, 0, 0]</text>
+</g>
+<!-- 57&#45;&gt;59 -->
+<g class="edge" id="edge59"><title>57-&gt;59</title>
+<path fill="none" stroke="black" d="M 5713.13 -88.9485 C 5722.9 -79.6175 5733.53 -69.4722 5743.28 -60.1641" />
+<polygon fill="black" stroke="black" points="5745.72,-62.6732 5750.54,-53.2367 5740.89,-57.6097 5745.72,-62.6732" />
+</g>
+<!-- 61 -->
+<g class="node" id="node62"><title>61</title>
+<polygon fill="#3956e5" fill-opacity="0.192157" stroke="black" points="6076.5,-53 5880.5,-53 5880.5,0 6076.5,0 6076.5,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5978.5" y="-37.8">entropy = 1.581</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5978.5" y="-22.8">samples = 360</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="5978.5" y="-7.8">value = [0, 0, 8, 130, 174, 46, 2]</text>
+</g>
+<!-- 60&#45;&gt;61 -->
+<g class="edge" id="edge61"><title>60-&gt;61</title>
+<path fill="none" stroke="black" d="M 5978.5 -88.9485 C 5978.5 -80.7153 5978.5 -71.848 5978.5 -63.4814" />
+<polygon fill="black" stroke="black" points="5982,-63.2367 5978.5,-53.2367 5975,-63.2367 5982,-63.2367" />
+</g>
+<!-- 62 -->
+<g class="node" id="node63"><title>62</title>
+<polygon fill="#b139e5" fill-opacity="0.25098" stroke="black" points="6264,-53 6095,-53 6095,0 6264,0 6264,-53" />
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="6179.5" y="-37.8">entropy = 1.937</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="6179.5" y="-22.8">samples = 22</text>
+<text font-family="Times New Roman,serif" font-size="14px" text-anchor="middle" x="6179.5" y="-7.8">value = [0, 0, 2, 3, 6, 10, 1]</text>
+</g>
+<!-- 60&#45;&gt;62 -->
+<g class="edge" id="edge62"><title>60-&gt;62</title>
+<path fill="none" stroke="black" d="M 6048.8 -88.9485 C 6070.59 -78.7021 6094.48 -67.4737 6115.8 -57.4503" />
+<polygon fill="black" stroke="black" points="6117.52,-60.5089 6125.08,-53.0867 6114.54,-54.1741 6117.52,-60.5089" />
+</g>
+</g>
+</svg>
