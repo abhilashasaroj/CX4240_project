@@ -97,7 +97,11 @@ we can see the Lasso regression can get a higher score when \lambda is really sm
 ### Quality Prediction Using Decision Tree and Random Ensemble Classifier - Abhilasha
 #### Decision Tree Classifier
 
-Pruned Decision Tree Classifier
+![alt text](Project_saroj.svg)
+
+Accuracy = 
+
+##### Pruned Decision Tree Classifier
 Depth=5
 ![alt text](Project_saroj_5.svg)
 
