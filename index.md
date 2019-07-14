@@ -91,11 +91,28 @@ we can see the Lasso regression can get a higher score when \lambda is really sm
 
 #### Discussion 
 
-### Quality Prediction Using Neural Network - Abhilasha
+### Quality Prediction Using Decision Tree Classifier - Abhilasha
+
+depth=5
+![alt text](Project_saroj_5.svg)
+
+Accuracy =
+
+
+depth =3
+![alt text](Project_saroj_3.svg)
+
+Accuracy =
 
 #### Model Cross Validation Results
 
 #### Discussion 
+
+### Quality Prediction Using Ensemble Random Forest Classifier - Abhilasha
+
+#### Model Cross Validation Results
+
+#### Discussion
 
 ### Quality Prediction Using Support Vector Machine - Ogulcan
 
