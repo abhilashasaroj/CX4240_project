@@ -113,9 +113,20 @@ Depth =3
 
 Accuracy =
 
-#### Model Cross Validation Results
+##### Discussion 
 
-#### Discussion 
+#### Ensemble Random Forest Classifier
+
+Result for Random Forest Classifier with following attributes
+
+1. n_estimators = 100
+2. Depth_limit = None
+3. Bootstrap = True, Model uses bootstrapped dataset to create trees instead of while dataset.
+
+*Accuracy score = 0.62*
+
+![alt text](Project_saroj_rf_estimator2_n100_ootstrap.svg)
+
 
 ### Quality Prediction Using Support Vector Machine - Ogulcan
 
