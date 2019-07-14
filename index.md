@@ -54,7 +54,7 @@ By comparing the MSE between linear regression model and polynormial model, we c
 ### Quality Prediction Using Ridge Regression and Lasso Regression - Yi 
 ### (3) Ridge Regression
 For Ridge Regression, we add a regulation in the function to reduce the magnitude of the coefficients. Our goal is to find the 
-\lambda that can optimize the parameters. 
+\lambda that can optimize the parameters. If we look at the cofficients for different features in RR here:
 
 ![alt text](Rcof.png)
 As we increase \lambda, we will see that the magnitude of coefficeints decrease.This is because higher the \lambda is, bigger is the penalty and therefore, the magnitude of coefficients are reduced.
@@ -63,10 +63,27 @@ if we look at the "MSE vs. \lambda" :
 ![alt text](RMSE1.png)
  we can see that MSE will decrease first as \lambda increases and then it ramp to really high value,the lowest MSE was reached when \lambda is 100, we also plotted the "score vs. \lambda":
 ![alt text](Rscore1.png)
+
 we see for this case, score is presentinf an opposite trend as MSE, but it also shows a highest score at \lambda = 100.
 
-#### at \lambda = 100, the MSE = 0.3799 and the score = 
+#### at \lambda = 100, the MSE = 0.3799 and the Test score = 0.34
+
+### (4) Lasso Regression
+
+For Lasso Regerssion, the regulation method is different with Ridge Regression. in RR, the regulation is related to squared coefficience, however, in LR, the regulation is only related to absolute value of coefficience. Therefore, we are expecting that when we increase the value of \lambda, coefficeints are approaching towards 0!!!! therefore, Lasso selects some features while reduce the coefficients of others to zero. if we look at the the cofficients for different features in LR here:
+![alt text](Lcof.png)
+
+if we look at the "MSE vs. \lambda" :
+![alt text](LMSE.png)
+ we can see that MSE keeps increase as we increase \lambda, and then it reach a platue states. we also plotted the "score vs. \lambda":
+![alt text](Lscore.png)
+
+we can see the Lasso regression can get a higher score when \lambda is really small. at \lambda = 0.0001, the MSE = 0.42578, and Test score = 0.39
+
+
 #### Discussion 
+
+
 
 ### Quality Prediction Using Logistic Regression - Abhilasha
 
@@ -88,17 +105,7 @@ we see for this case, score is presentinf an opposite trend as MSE, but it also 
 
 ## Comparison of Prediction Models
 
-
-| Learning Classifier  | Accuracy Score |
-| ------------- | ------------- |
-| Linear Regression Classifier  |xxx  |
-| Polynomial Regression Classifier  | xxx |
-| Ridge Regression Classifier  |xxx  |
-| Lasso Regression Classifier  | xxx |
-| Logistic Regression Classifier  |0.55  |
-| Decision Tree Regression Classifier  | 0.59 |
-| Ensemble Random Forest Regression Classifier  | 0.62 |
-| Support Vector Machine Classifier  | xxx |
+->Tabulate value comparisons (Add table)
 
 ## Conclusion
 
