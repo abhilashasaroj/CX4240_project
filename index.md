@@ -33,10 +33,10 @@ Add visualizations
 -> Add outline
 ### Quality Prediction Using Linear Regression and Polynomical Regression - Yi
 First, let's look at the correlation among features and label('quality'):
-![alt text](Cor-1.png|width= 100)
+![alt text](Cor-1.png width= "100" height="100")
 From the correlation map, we can see that the most correlated feature with 'quality' is 'alchol'.
 Then we want to plot the relation between each feature and label:
-![alt text](LR%20in%20seaborn.png|width=75)
+![alt text](LR%20in%20seaborn.png width= "100" height="100")
 We can see that the linear relation bewteen each features and label is not very good prediction, so we want to do a linear combination of all features of dataset to do the prediction. 
 #### (1) Linear Regression
 We first split our training and test data into 66% and 34%, then we did the Linear Regression Model to fit our function, here's the outcome of our "true_y vs. predicted_y" :
