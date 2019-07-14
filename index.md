@@ -89,6 +89,16 @@ we see for this case, score is presentinf an opposite trend as MSE, but it also 
 ## Comparison of Prediction Models
 
 ->Tabulate value comparisons (Add table)
+| Learning Classifier  | Accuracy Scor |
+| ------------- | ------------- |
+| Linear Regression Classifier  |xxx  |
+| Polynomial Regression Classifier  | xxx |
+| Ridge Regression Classifier  |xxx  |
+| Lasso Regression Classifier  | xxx |
+| Logistic Regression Classifier  |0.55  |
+| Decision Tree Regression Classifier  | 0.59 |
+| Ensemble Random Forest Regression Classifier  | 0.62 |
+| Support Vector Machine Classifier  | xxx |
 
 ## Conclusion
 
