@@ -33,26 +33,26 @@ From the correlation map, we can see that the most correlated feature with 'qual
 Then we want to plot the relation between each feature and label:
 ![alt text](LR%20in%20seaborn.png)
 We can see that the linear relation bewteen each features and label is not very good prediction, so we want to do a linear combination of all features of dataset to do the prediction. 
-## (1) Linear Regression
+#### (1) Linear Regression
 We first split our training and test data into 66% and 34%, then we did the Linear Regression Model to fit our function, here's the outcome of our "true_y vs. predicted_y" :
 ![alt text](LRpredict.png)
 
-#### the calculated MSE = 0.5409578
-#### Test Score = 0.299689
+##### the calculated MSE = 0.5409578
+##### Test Score = 0.299689
 
-## (2) Polynormial Regression
+#### (2) Polynormial Regression
 First, Let's try fit the function when degree n = 3, the "true_y vs. predicted_y" looks like this:
 ![alt text](polypred.png)
 
-#### the calculated MSE = 0.5327816
-#### Test Score = 0.2732067
+##### the calculated MSE = 0.5327816
+##### Test Score = 0.2732067
 it is worthnoting that the degree of polynormial function influece the fitting of model, beacaue we don't want to overfit or underfit the model. so we plot the 'MSE vs. polynormial degree n' to see which degree has the lowest MSE value:
 ![alt text](MSEp.png)
-## Discussion 
+##### Discussion 
 By comparing the MSE between linear regression model and polynormial model, we can conclude that for our dataset, polynormial model (when n = 2) is a little bit better than linear regression model and n = other values.
 
 ### Quality Prediction Using Ridge Regression and Lasso Regression - Yi 
-### (3) Ridge Regression
+#### (3) Ridge Regression
 For Ridge Regression, we add a regulation in the function to reduce the magnitude of the coefficients. Our goal is to find the 
 \lambda that can optimize the parameters. If we look at the cofficients for different features in RR here:
 
@@ -66,9 +66,9 @@ if we look at the "MSE vs. \lambda" :
 
 we see for this case, score is presentinf an opposite trend as MSE, but it also shows a highest score at \lambda = 100.
 
-#### at \lambda = 100, the MSE = 0.3799 and the Test score = 0.34
+##### at \lambda = 100, the MSE = 0.3799 and the Test score = 0.34
 
-### (4) Lasso Regression
+#### (4) Lasso Regression
 
 For Lasso Regerssion, the regulation method is different with Ridge Regression. in RR, the regulation is related to squared coefficience, however, in LR, the regulation is only related to absolute value of coefficience. Therefore, we are expecting that when we increase the value of \lambda, coefficeints are approaching towards 0!!!! therefore, Lasso selects some features while reduce the coefficients of others to zero. if we look at the the cofficients for different features in LR here:
 ![alt text](Lcof.png)
@@ -81,7 +81,7 @@ if we look at the "MSE vs. \lambda" :
 we can see the Lasso regression can get a higher score when \lambda is really small. at \lambda = 0.0001, the MSE = 0.42578, and Test score = 0.39
 
 
-#### Discussion 
+##### Discussion 
 
 
 
