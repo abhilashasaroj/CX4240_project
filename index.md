@@ -53,12 +53,19 @@ By comparing the MSE between linear regression model and polynormial model, we c
 
 ### Quality Prediction Using Ridge Regression and Lasso Regression - Yi 
 ### (3) Ridge Regression
-For Ridge Regression, we add a regulation in the function to reduce the magnitude of the coefficients. Our goal is to get:
- min\[
- \(||Y-X(\theta)||^2+ \lambda||\theta||^2)
- \]
-#### Model Cross Validation Results
+For Ridge Regression, we add a regulation in the function to reduce the magnitude of the coefficients. Our goal is to find the 
+\lambda that can optimize the parameters. 
 
+![alt text](Rcof.png)
+As we increase \lambda, we will see that the magnitude of coefficeints decrease.This is because higher the \lambda is, bigger is the penalty and therefore, the magnitude of coefficients are reduced.
+
+if we look at the "MSE vs. \lambda" :
+![alt text](RMSE1.png)
+ we can see that MSE will decrease first as \lambda increases and then it ramp to really high value,the lowest MSE was reached when \lambda is 100, we also plotted the "score vs. \lambda":
+![alt text](Rscore1.png)
+we see for this case, score is presentinf an opposite trend as MSE, but it also shows a highest score at \lambda = 100.
+
+#### at \lambda = 100, the MSE = 0.3799 and the score = 
 #### Discussion 
 
 ### Quality Prediction Using Logistic Regression - Abhilasha
@@ -67,11 +74,9 @@ For Ridge Regression, we add a regulation in the function to reduce the magnitud
 
 #### Discussion 
 
-### Quality Prediction Using Decision Tree and Random Tree Classifiers - Abhilasha
+### Quality Prediction Using Neural Network - Abhilasha
 
-#### Decision Tree Classifier
-![alt text](Project_saroj_5.svg)
-#### Ensemble Random Tree Classifier
+#### Model Cross Validation Results
 
 #### Discussion 
 
@@ -83,27 +88,7 @@ For Ridge Regression, we add a regulation in the function to reduce the magnitud
 
 ## Comparison of Prediction Models
 
-
-| Learning Model                    | Accuracy Score|
-| ----------------------------------|:-------------:| 
-| Linear Regression Classifier      | enter val     |
-| Polynomial Regression Classifier  | enter val     |  
-| Ridge Regression Classifier       | enter val     |    
-| Lasso Regression Classifier       | enter val     |   
-| Logistic Regression Classifier    | 0.55          |   
-| Decision Tree Classifer           | 0.59          |
-| Ensemble Random Forest Classifier | 0.62          |   
-| Support Vector Machine Classifier | enter val     |   
-
-Please add cross validated mean accuracy of the models here
-Linear Regression -
-Polynomial Regression -
-Ridge Regression -
-Lasso Regression -
-Logistic Regression - 0.55
-Decision Tree - 0.59
-Random Forest - 0.62
-Support Vectore Machine -
+->Tabulate value comparisons (Add table)
 
 ## Conclusion
 
