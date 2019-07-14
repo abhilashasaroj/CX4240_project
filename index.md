@@ -82,10 +82,11 @@ we can see the Lasso regression can get a higher score when \lambda is really sm
 
 
 ##### Discussion 
-|Model.         | Linear        |
+
+|Model         | Linear        |
 | ------------- | ------------- |
-| MSE.          | 0.5409.       |
-| TEST Score.   | 0.299.        |
+| MSE          | 0.5409       |
+| TEST Score   | 0.299        |
 
 
 ### Quality Prediction Using Logistic Regression - Abhilasha
