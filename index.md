@@ -70,7 +70,7 @@ For Ridge Regression, we add a regulation in the function to reduce the magnitud
 ### Quality Prediction Using Decision Tree and Random Tree Classifiers - Abhilasha
 
 #### Decision Tree Classifier
-
+![alt text](Project_saroj_5.svg)
 #### Ensemble Random Tree Classifier
 
 #### Discussion 
@@ -84,6 +84,17 @@ For Ridge Regression, we add a regulation in the function to reduce the magnitud
 ## Comparison of Prediction Models
 
 ->Tabulate value comparisons (Add table)
+| Learning Model                    | Accuracy Score|
+| --------------------------------  |:-------------:| 
+| Linear Regression Classifier      | enter val     |
+| Polynomial Regression Classifier  | enter val     |  
+| Ridge Regression Classifier       | enter val     |    
+| Lasso Regression Classifier       | enter val     |   
+| Logistic Regression Classifier    | 0.55          |   
+| Decision Tree Classifer           | 0.59          |
+| Ensemble Random Forest Classifier | 0.62          |   
+| Support Vector Machine Classifier | enter val     |   
+
 Please add cross validated mean accuracy of the models here
 Linear Regression -
 Polynomial Regression -
