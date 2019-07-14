@@ -27,6 +27,11 @@ Add visualizations
 ## Supervised Learning Models for Wine Quality Prediction
 -> Add outline
 ### Quality Prediction Using Linear Regression and Polynomical Regression - Yi
+First, let's look at the correlation among features and label('quality'):
+![alt text](Cor-1.png)
+from the correlation map, we can see that the most correlated feature with 'quality' is 'alchol'
+then we want to plot the relation between each feature and label:
+![alt text](LR in seaborn.png)
 
 #### Model Cross Validation Results
 
