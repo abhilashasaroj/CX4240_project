@@ -41,13 +41,15 @@ We first split our training and test data into 66% and 34%, then we did the Line
 ##### Test Score = 0.299689
 
 #### (2) Polynormial Regression
-First, Let's try fit the function when degree n = 3, the "true_y vs. predicted_y" looks like this:
-![alt text](polypred.png)
+First, Let's try fit the function when degree n = 2, the "true_y vs. predicted_y" looks like this:
+![alt text](polypre.png)
 
-##### the calculated MSE = 0.5327816
-##### Test Score = 0.2732067
+##### the calculated MSE = 0.48487
+##### Test Score = 0.3385
 it is worthnoting that the degree of polynormial function influece the fitting of model, beacaue we don't want to overfit or underfit the model. so we plot the 'MSE vs. polynormial degree n' to see which degree has the lowest MSE value:
+
 ![alt text](MSEp.png)
+
 ##### Discussion 
 By comparing the MSE between linear regression model and polynormial model, we can conclude that for our dataset, polynormial model (when n = 2) is a little bit better than linear regression model and n = other values.
 
