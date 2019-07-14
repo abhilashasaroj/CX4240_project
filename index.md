@@ -19,6 +19,8 @@ Add visualizations - Renee
 ## Initial Data Exploration 
 ### Principal Componenet Analysis - Abhilasha
 
+![alt text](pc_2d.png)
+
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~abhilashasaroj/108.embed"></iframe>
 
 Describe PC scores and result
@@ -91,7 +93,12 @@ we can see the Lasso regression can get a higher score when \lambda is really sm
 
 ### Quality Prediction Using Logistic Regression - Abhilasha
 
-#### Model Cross Validation Results
+![alt text](logistic_confusionmatrix_tale.PNG)
+
+![alt text](logistic_confusion_colored.png)
+
+
+![alt text](performance_of_logistic.png)
 
 #### Discussion 
 
