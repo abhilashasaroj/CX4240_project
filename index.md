@@ -67,9 +67,11 @@ For Ridge Regression, we add a regulation in the function to reduce the magnitud
 
 #### Discussion 
 
-### Quality Prediction Using Neural Network - Abhilasha
+### Quality Prediction Using Decision Tree and Random Tree Classifiers - Abhilasha
 
-#### Model Cross Validation Results
+#### Decision Tree Classifier
+
+#### Ensemble Random Tree Classifier
 
 #### Discussion 
 
@@ -82,6 +84,15 @@ For Ridge Regression, we add a regulation in the function to reduce the magnitud
 ## Comparison of Prediction Models
 
 ->Tabulate value comparisons (Add table)
+Please add cross validated mean accuracy of the models here
+Linear Regression -
+Polynomial Regression -
+Ridge Regression -
+Lasso Regression -
+Logistic Regression - 0.55
+Decision Tree - 0.59
+Random Forest - 0.62
+Support Vectore Machine -
 
 ## Conclusion
 
