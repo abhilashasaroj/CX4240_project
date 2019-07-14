@@ -33,13 +33,23 @@ From the correlation map, we can see that the most correlated feature with 'qual
 Then we want to plot the relation between each feature and label:
 ![alt text](LR%20in%20seaborn.png)
 We can see that the linear relation bewteen each features and label is not very good prediction, so we want to do a linear combination of all features of dataset to do the prediction. 
-### (1) Linear Regression
-We first split our training and test data into 66% and 34%, then we did the Linear Regression Model to fit our function, here's the outcome of our "true_y vs predicted_y" :
-![alt text](.png)
+## (1) Linear Regression
+We first split our training and test data into 66% and 34%, then we did the Linear Regression Model to fit our function, here's the outcome of our "true_y vs. predicted_y" :
+![alt text](LRpredict.png)
 
-#### Model Cross Validation Results
+#### the calculated MSE = 0.5409578
+#### Test Score = 0.299689
 
-#### Discussion 
+## (2) Polynormial Regression
+First, Let's try fit the function when degree n = 3, the "true_y vs. predicted_y" looks like this:
+![alt text](polypred.png)
+
+#### the calculated MSE = 0.5327816
+#### Test Score = 0.2732067
+it is worthnoting that the degree of polynormial function influece the fitting of model, beacaue we don't want to overfit or underfit the model. so we plot the 'MSE vs. polynormial degree n' to see which degree has the lowest MSE value:
+![alt text](MSEpoly.png)
+## Discussion 
+By comparing the MSE between 
 
 ### Quality Prediction Using Ridge Regression and Lasso Regression - Yi 
 
