@@ -3,10 +3,10 @@
 ## Introduction
 This study aims to compare the performance of different supervised learning algorithms to predict wine quality based on a wine’s physicochemical test results. Wine quality assessment is crucial in the wine industry and is assessed based on physicochemical tests at laboratories and on sensory tests that rely on human experts opinion on wine preferences [1].
 
-## Background and Motivation - Renee
+## Background and Motivation
 In 2018, over 966 million gallons of wine was consumed in the United States [2]. The lack of understanding of physicochemical properties’ effect on the taste of wine and the behavior of human taste makes wine quality categorization non-trivial [3,4].The complexity in the accuracy of prediction and the importance of wine quality assessment in the wine industry motivate the research presented here.  In this presentation, we will apply and compare the performance of supervised learning algorithms to predict wine quality.
 
-The supervised learning models studied were regression, decision tree,  and support vector machine (SVM). The ratio of test data to training data was kept constant at 2 to 1 for each model.
+The supervised learning models studied were linear regression, logistic regression, decision tree, random forest  and support vector machine (SVM). The ratio of test data to training data was kept constant at 2 to 1 for each model.
 
 Today, we will:
 
@@ -14,13 +14,15 @@ Today, we will:
 
 2. Describe the data manipulation techniques used
 
-3. Results:
+3. Method Results:
 
-   - Regression
+   - Linear Regression
+   
+   - Logistic Regression
 
-   - Decision Tree
+   - Decision Tree & Random Forest
 
-   - SVM
+   - Support Vectore Machine
 
 4. Comparison of different methods' results
 
@@ -64,7 +66,7 @@ The average of each dimension varies based off the type of wine that it is.
 None of the dimensions are linearly separable from each other.
 
 ## Initial Data Exploration 
-### Principal Componenet Analysis - Abhilasha
+### Principal Componenet Analysis
 A dataset with 12 feature pushes us to conduct a Principal Componenet Analysis on the data to consider possibility of dimenstion reduction. Principal componenet analysis result for complete dataset reveals that 0.99 of total variance in dataset is explained by first 11 eigen values. PCA result indicated not much of dimension reduction can be achieved by using 2 or 3 principal componenets. Thus, there are not easily identifiable directions in which signiifcant variance of the data points can be captured. 
 
 [0.3176715, 0.21069888, 0.12999856, 0.08094213, 0.06034393, 0.0510322, 0.04471237, 0.04190673, 0.02934314, 0.02139346, 0.00994418]
@@ -78,7 +80,7 @@ Using principal component analysis, the spread of data is visualized in 2D and 3
 <iframe width="700" height="700" frameborder="0" scrolling="no" src="//plot.ly/~abhilashasaroj/108.embed"></iframe>
 
 ## Supervised Learning Models for Wine Quality Prediction
-This section presents performance of several supervised learning models developed using given dataset to predict wine quality data. Traning to test data split ratio of 66% - 33% is used for validation. K-fold cross validation is used determine mean accuracy score. And confusion matrix is used to visualize the classification y the developed classifiers. 
+This section presents performance of several supervised learning models developed using given dataset to predict wine quality data. Traning to test data split ratio of 66% - 33% is used for validation. K-fold cross validation is used determine mean accuracy score and confusion matrix is used to visualize the classification by the developed classifiers. 
 
 ### Quality Prediction Using Linear Regression and Polynomical Regression
 First, let's look at the correlation among features and label('quality'):
@@ -145,19 +147,18 @@ we can see the Lasso regression can get a higher score when ![CodeCogsEqn copy](
 
 
 ### Quality Prediction Using Logistic Regression
-Logistic regression is applied on the training datatset (66%) of complete dataset. The mean accuracy from 3-fold cross validation of this model is 0.55. Classification performance of logstic classifier is shown in the confusion matrix. True positives for labels 5 and 6 are highest. Labels 3,4, 8, and 9 are not getting predicted or classified correctly. 
+Logistic regression is applied on the training datatset (66%) of complete dataset. The mean accuracy from 3-fold cross validation of this model is 0.55. Classification performance of logstic classifier is shown in the confusion matrix. True positives for labels 5 and 6 are highest. Labels 3,4, 8, and 9 are not getting predicted or classified correctly. This could be because of lack of data points for these labels in the dataset, shown previously.
 
 ![alt text](logistic_confusionmatrix_tale.PNG)
 
 ![alt text](logistic_confusion_colored.png)
 
 
+To check the consequences of overfitting, L2 norm regularized logistic regression model is developed. The accuracy of regualrized logistic model on test data with varying value C (inverse of regualrization parameter) is plotted. With lower value of C that is higher penalty the accuracy is lower. As we increase the value of C the accuracy increases. However, it attains a plateau after reaching accuracy of around 0.55.
 
 ![alt text](performance_of_logistic.png)
 
-#### Discussion 
-
-### Quality Prediction Using Decision Tree and Random Ensemble Classifier - Abhilasha
+### Quality Prediction Using Decision Tree and Random Ensemble Classifier
 #### Decision Tree Classifier
 
 ![alt text](Project_saroj.svg)
