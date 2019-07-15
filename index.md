@@ -35,7 +35,7 @@ Then we want to plot the relation between each feature and label:
 We can see that the linear relation between each features and label is not very good prediction, so we want to do a linear combination of all features of dataset to do the prediction.
 
 ### Principal Component Analysis - Abhilasha
-A dataset with 12 feature pushes us to conduct a Principal Componenet Analysis on the data to consider possibility of dimenstion reduction. Principal componenet analysis result for complete dataset reveals that 0.99 of total variance in dataset is explained by first 11 eigen values. PCA result indicated not much of dimension reduction can be achieved by using 2 or 3 principal componenets. Thus, there are not easily identifiable directions in which significant variance of the data points can be captured. 
+A dataset with 12 feature pushes us to conduct a Principal Componenet Analysis on the data to consider possibility of dimenstion reduction. Principal componenet analysis result for complete dataset reveals that 0.99 of total variance in dataset is explained by first 11 eigenvalues. PCA result indicated not much of dimension reduction can be achieved by using 2 or 3 principal componenets. Thus, there are not easily identifiable directions in which significant variance of the data points can be captured. 
 
 [0.3176715, 0.21069888, 0.12999856, 0.08094213, 0.06034393, 0.0510322, 0.04471237, 0.04190673, 0.02934314, 0.02139346, 0.00994418]
 
@@ -51,12 +51,12 @@ Using 3 PCs, the spread of data in the model in 3 dimensions is visualized in th
 
 <iframe width="700" height="700" frameborder="0" scrolling="no" src="//plot.ly/~abhilashasaroj/108.embed"></iframe>
 
-Describe PC scores and result
-Add visualizations
+Visualizations indicate dense and mixed accumulation of data.
 
 ## Supervised Learning Models for Wine Quality Prediction
--> Add outline
-### Quality Prediction Using Linear Regression and Polynomical Regression - Yi
+Performance of several supervised learning models to predict wine quality ased on 12 physiochemical properites of wine are tested. First, we will discuss performance of the developed linear and ploynomial regrssion classifiers. Then, we will discuss performance of regularized linear regression classifiers - Ridge regression classifier and Lasso regression classifier. Followed by this, we will discuss performance of the developed logistic regression classifier, decision tree classifier, random forect classifier and lastly, support vector machine classifier.
+
+### Quality Prediction Using Linear Regression and Polynomial Regression - Yi
 #### (1) Linear Regression
 We first split our training and test data into 66% and 34%, then we did the Linear Regression Model to fit our function, here's the outcome of our "true_y vs. predicted_y" :
 ![alt text](LRpredict.png)
