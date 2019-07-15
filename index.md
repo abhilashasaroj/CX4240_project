@@ -71,7 +71,7 @@ By comparing the MSE between linear regression model and polynormial model, we c
 ### Quality Prediction Using Ridge Regression and Lasso Regression - Yi 
 #### (3) Ridge Regression
 For Ridge Regression, we add a regulation in the function to reduce the magnitude of the coefficients. Our goal is to find the 
-\lambda that can optimize the parameters. If we look at the cofficients for different features in RR here:
+\lambda that can optimize the parameters. ![CodeCogsEqn](https://user-images.githubusercontent.com/50888610/61228984-51bc3d00-a6f5-11e9-818e-9dd169da3edc.gif) If we look at the cofficients for different features in RR here:
 
 ![alt text](Rcof.png)
 As we increase \lambda, we will see that the magnitude of coefficeints decrease.This is because higher the \lambda is, bigger is the penalty and therefore, the magnitude of coefficients are reduced.
