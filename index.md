@@ -16,13 +16,13 @@ Today, we will:
 
 3. Method Results:
 
-   - Linear Regression
+   - Linear, Polynomial, Ridge, & Lasso Regression
    
    - Logistic Regression
 
    - Decision Tree & Random Forest
 
-   - Support Vectore Machine
+   - Support Vector Machine
 
 4. Comparison of different methods' results
 
@@ -40,7 +40,7 @@ The features considered were: type (red or white), fixed acidity, volatile acidi
 
 The value 1 corresponds to white wine
 
-The value 2 correponds to red wine
+The value 2 corresponds to red wine
  
 ![alt text](pic1.JPG)
 
@@ -191,7 +191,7 @@ Result for Random Forest Classifier with following attributes
 ![alt text](Project_saroj_rf_estimator2_n100_ootstrap.svg)
 
 
-### Quality Prediction Using Support Vector Machine - Ogulcan
+### Quality Prediction Using Support Vector Machine
 
 Support vector machine (SVM) was implemented for multi-class classification using "one against one" approach. Different kernel functions were applied such as RBF, polynomial and linear on both mixed (red and white wine data together) and separated datasets (separated as red and white wine). Datasets were splitted as 1/3 for test and 2/3 for training where standardization was applied only on training set.
 
