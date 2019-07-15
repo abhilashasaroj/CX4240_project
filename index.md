@@ -1,4 +1,4 @@
-![alt text](https://www.nvtt.net/wp-content/uploads/2018/10/wine-tasting.jpg "Logo Title Text 1")
+![alt text](https://www.nvtt.net/wp-content/uploads/2018/10/wine-tasting.jpg)
 
 ## Introduction
 This study aims to compare the performance of different supervised learning algorithms to predict wine quality based on a wine’s physicochemical test results. Wine quality assessment is crucial in the wine industry and is assessed based on physicochemical tests at laboratories and on sensory tests that rely on human experts opinion on wine preferences [1].
@@ -9,18 +9,30 @@ This study aims to compare the performance of different supervised learning algo
 -> Add outline of the webapage/presentation.
 
 ## Data Description and Initial Data Exploration
+This section presents insights on the wine quality dataset which will be used to model quality predictions. 
+
+### Data Distribution in Dataset by Quality Lables and Wine Type
+
 Describe features, labels - Renee
 
 Add visualizations - Renee
  
 ![alt text](pic1.JPG)
 
+Present key insights - Renee
 
-###Feature Pairplot
+### Feature Pairplot
 ![alt text](feature_plots.png)
+
+Key insight on correlation betwen features - Renee
 
 ## Initial Data Exploration 
 ### Principal Componenet Analysis - Abhilasha
+A dataset with 12 feature pushes us to conduct a Principal Componenet Analysis on the data to consider possibility of dimenstion reduction. Principal componenet analysis result for complete dataset reveals that 0.99 of total variance in dataset is explained by first 11 eigen values. PCA result indicated not much of dimension reduction can be achieved by using 2 or 3 principal componenets. Thus, there are not easily identifiable directions in which signiifcant variance of the data points can be captured. 
+
+[0.3176715, 0.21069888, 0.12999856, 0.08094213, 0.06034393, 0.0510322, 0.04471237, 0.04190673, 0.02934314, 0.02139346, 0.00994418]
+
+
 
 ![alt text](pc_2d.png)
 
