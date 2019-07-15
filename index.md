@@ -23,16 +23,23 @@ Present key insights - Renee
 
 ### Feature Pairplot
 ![alt text](feature_plots.png)
-
 Key insight on correlation betwen features - Renee
+
+ Comment: moved Yi's content here
+Now, let's look at the correlation among features and label('quality'):
+![alt text](Cor-1.png)
+From the correlation map, we can see that the most correlated feature with 'quality' is 'alchol'.
+Then we want to plot the relation between each feature and label:
+
+![alt text](LR%20in%20seaborn.png)
+We can see that the linear relation between each features and label is not very good prediction, so we want to do a linear combination of all features of dataset to do the prediction.
 
 ## Initial Data Exploration 
 ### Principal Componenet Analysis - Abhilasha
 A dataset with 12 feature pushes us to conduct a Principal Componenet Analysis on the data to consider possibility of dimenstion reduction. Principal componenet analysis result for complete dataset reveals that 0.99 of total variance in dataset is explained by first 11 eigen values. PCA result indicated not much of dimension reduction can be achieved by using 2 or 3 principal componenets. Thus, there are not easily identifiable directions in which signiifcant variance of the data points can be captured. 
-
 [0.3176715, 0.21069888, 0.12999856, 0.08094213, 0.06034393, 0.0510322, 0.04471237, 0.04190673, 0.02934314, 0.02139346, 0.00994418]
 
-
+![alt text](variance_pcs.png)
 
 ![alt text](pc_2d.png)
 
@@ -44,12 +51,6 @@ Add visualizations
 ## Supervised Learning Models for Wine Quality Prediction
 -> Add outline
 ### Quality Prediction Using Linear Regression and Polynomical Regression - Yi
-First, let's look at the correlation among features and label('quality'):
-![alt text](Cor-1.png)
-From the correlation map, we can see that the most correlated feature with 'quality' is 'alchol'.
-Then we want to plot the relation between each feature and label:
-![alt text](LR%20in%20seaborn.png)
-We can see that the linear relation bewteen each features and label is not very good prediction, so we want to do a linear combination of all features of dataset to do the prediction. 
 #### (1) Linear Regression
 We first split our training and test data into 66% and 34%, then we did the Linear Regression Model to fit our function, here's the outcome of our "true_y vs. predicted_y" :
 ![alt text](LRpredict.png)
@@ -158,10 +159,16 @@ Result for Random Forest Classifier with following attributes
 
 ## Comparison of Prediction Models
 
-| First Header  | Second Header |
+| Classifier Model | Accuracy Score |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Linear Regression  | xxx |
+| Polynomial Regression  | xxx |
+| Ridge Regression | xxx |
+| Lasso Regression | xxx |
+| Logistic Regression | 0.55 |
+| Decision Tree | 0.59 |
+| Ensemle Random Forest | 0.62 |
+| Support Vector Machine | xxx |
 
 ## Conclusion
 
