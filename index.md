@@ -152,9 +152,9 @@ Result for Random Forest Classifier with following attributes
 
 ### Quality Prediction Using Support Vector Machine - Ogulcan
 
-Support vector machine (SVM) was implemented for multi-class classification using "one against one" approach. Different kernel functions were applied such as RBF, polynomial and linear on both mixed (red and white wine data together) and separated dataset (separated as red and white wine). Datasets were splitted as 1/3 for test and 2/3 for training where standardization was applied on only training set.
+Support vector machine (SVM) was implemented for multi-class classification using "one against one" approach. Different kernel functions were applied such as RBF, polynomial and linear on both mixed (red and white wine data together) and separated datasets (separated as red and white wine). Datasets were splitted as 1/3 for test and 2/3 for training where standardization was applied only on training set.
 
-While modelling mixed dataset, red and white wine being features should be converted to numbers. This phenomenon has been investigated with RBF kernel. First, white wine was converted to 1 whereas red wine was 2. Also, using gridsearch with 3-fold cross validation was applied to find RBF kernel parameters of C and gamma. Confusion matrices for this case is shown below: 
+While modelling mixed dataset, red and white wine being features should be converted to integers. This phenomenon has been investigated with RBF kernel. First, white wine was converted to 1 whereas red wine was 2. Also, using gridsearch with 3-fold cross validation, RBF kernel parameters of C and gamma were found. Confusion matrix for this case is shown below: 
 
 ![White_wine=1,red_wine=2](SVM-confusion_matrix-RBF-mixed_1.png)               
 
@@ -162,11 +162,11 @@ Then, same numbers were assigned vice versa (white wine = 2, red wine = 1) to ob
 
 ![White_wine=2,red_wine=1](SVM-confusion_matrix-RBF-mixed_2.png)
 
-As you can see, much difference could not be observed in confusion matrices. Also, accuracy scores for both classifications were found 0.64. Confusion matrices for white and red wine datasets on which 'RBF' kernel was implemented is shown below (Left-white, Right-red):
+As you can see, much difference could not be observed in above confusion matrices. Also, accuracy scores for both classifications were found 0.64. Confusion matrices for white and red wine datasets on which 'RBF' kernel was implemented is shown below (Left-white, Right-red):
 
 ![White_wine, RBF](SVM-confusion_matrix-RBF-white.png)      ![Red_wine, RBF](SVM-confusion_matrix-RBF-red.png)
 
-Accuracy scores for white and red wine datasets are found as 0.63 and 0.60, respectively. Considering 0.64 accuracy score for mixed dataset, a decreasing trend for accuracy was observed while separating dataset. The reason for this may be smaller training sets with separated datasets compared to mixed where the features are not varying much by the wine type.
+Accuracy scores for white and red wine datasets were found as 0.63 and 0.60, respectively. Considering 0.64 accuracy score for mixed dataset, a decreasing trend for accuracy was observed while separating dataset. The reason for this may be relatively smaller training sets with separated datasets where the features are not varying much by the wine type.
 
   
 
