@@ -32,7 +32,9 @@ A dataset with 12 feature pushes us to conduct a Principal Componenet Analysis o
 
 [0.3176715, 0.21069888, 0.12999856, 0.08094213, 0.06034393, 0.0510322, 0.04471237, 0.04190673, 0.02934314, 0.02139346, 0.00994418]
 
+![alt text](variance_pcs.PNG)
 
+Using principal component analysis, the spread of data is visualized in 2D and 3D space below.
 
 ![alt text](pc_2d.png)
 
