@@ -23,40 +23,33 @@ Present key insights - Renee
 
 ### Feature Pairplot
 ![alt text](feature_plots.png)
+
 Key insight on correlation betwen features - Renee
 
- Comment: moved Yi's content here
-Now, let's look at the correlation among features and label('quality'):
-![alt text](Cor-1.png)
-From the correlation map, we can see that the most correlated feature with 'quality' is 'alchol'.
-Then we want to plot the relation between each feature and label:
-
-![alt text](LR%20in%20seaborn.png)
-We can see that the linear relation between each features and label is not very good prediction, so we want to do a linear combination of all features of dataset to do the prediction.
-
-### Principal Component Analysis - Abhilasha
-A dataset with 12 feature pushes us to conduct a Principal Componenet Analysis on the data to consider possibility of dimenstion reduction. Principal componenet analysis result for complete dataset reveals that 0.99 of total variance in dataset is explained by first 11 eigenvalues. PCA result indicated not much of dimension reduction can be achieved by using 2 or 3 principal componenets. Thus, there are not easily identifiable directions in which significant variance of the data points can be captured. 
+## Initial Data Exploration 
+### Principal Componenet Analysis - Abhilasha
+A dataset with 12 feature pushes us to conduct a Principal Componenet Analysis on the data to consider possibility of dimenstion reduction. Principal componenet analysis result for complete dataset reveals that 0.99 of total variance in dataset is explained by first 11 eigen values. PCA result indicated not much of dimension reduction can be achieved by using 2 or 3 principal componenets. Thus, there are not easily identifiable directions in which signiifcant variance of the data points can be captured. 
 
 [0.3176715, 0.21069888, 0.12999856, 0.08094213, 0.06034393, 0.0510322, 0.04471237, 0.04190673, 0.02934314, 0.02139346, 0.00994418]
 
-Cumulative variance explained by principal components:
 
-![alt text](variance_pcs.PNG)
-
-While, transforming dataset into principal component space might not be very useful for modelling, it provides us a way to visualize the dataset with more than 3 dimensions.
 
 ![alt text](pc_2d.png)
 
-Using 3 PCs, the spread of data in the model in 3 dimensions is visualized in the following 3D plot. 
-
 <iframe width="700" height="700" frameborder="0" scrolling="no" src="//plot.ly/~abhilashasaroj/108.embed"></iframe>
 
-Visualizations indicate dense and mixed accumulation of data.
+Describe PC scores and result
+Add visualizations
 
 ## Supervised Learning Models for Wine Quality Prediction
-Performance of several supervised learning models to predict wine quality ased on 12 physiochemical properites of wine are tested. First, we will discuss performance of the developed linear and ploynomial regrssion classifiers. Then, we will discuss performance of regularized linear regression classifiers - Ridge regression classifier and Lasso regression classifier. Followed by this, we will discuss performance of the developed logistic regression classifier, decision tree classifier, random forect classifier and lastly, support vector machine classifier.
-
-### Quality Prediction Using Linear Regression and Polynomial Regression - Yi
+-> Add outline
+### Quality Prediction Using Linear Regression and Polynomical Regression - Yi
+First, let's look at the correlation among features and label('quality'):
+![alt text](Cor-1.png)
+From the correlation map, we can see that the most correlated feature with 'quality' is 'alchol'.
+Then we want to plot the relation between each feature and label:
+![alt text](LR%20in%20seaborn.png)
+We can see that the linear relation bewteen each features and label is not very good prediction, so we want to do a linear combination of all features of dataset to do the prediction. 
 #### (1) Linear Regression
 We first split our training and test data into 66% and 34%, then we did the Linear Regression Model to fit our function, here's the outcome of our "true_y vs. predicted_y" :
 ![alt text](LRpredict.png)
@@ -94,7 +87,7 @@ we see for this case, score is presentinf an opposite trend as MSE, but it also 
 
 #### (4) Lasso Regression
 
-For Lasso Regerssion, the regulation method is different with Ridge Regression. in RR, the regulation is related to squared coefficience, however, in LR, the regulation is only related to absolute value of coefficience. Therefore, we are expecting that when we increase the value of \lambda, coefficeints are approaching towards 0!!!! therefore, Lasso selects some features while reduce the coefficients of others to zero. if we look at the the cofficients for different features in LR here:
+For Lasso Regerssion, the regulation method is different with Ridge Regression. in RR, the regulation is related to squared coefficience, however, in LR, the regulation is only related to absolute value of coefficience. Therefore, we are expecting that when we increase the value of \lambda, coefficients are approaching towards 0!!!! therefore, Lasso selects some features while reduce the coefficients of others to zero. if we look at the the cofficients for different features in LR here:
 ![alt text](Lcof.png)
 
 if we look at the "MSE vs. \lambda" :
@@ -159,22 +152,34 @@ Result for Random Forest Classifier with following attributes
 
 ### Quality Prediction Using Support Vector Machine - Ogulcan
 
+Support vector machine (SVM) was implemented for multi-class classification using "one against one" approach. Different kernel functions were applied such as RBF, polynomial and linear on both mixed (red and white wine data together) and separated dataset (separated as red and white wine). Datasets were splitted as 1/3 for test and 2/3 for training where standardization was applied on only training set.
+
+While modelling mixed dataset, red and white wine being features should be converted to numbers. This phenomenon has been investigated with RBF kernel. First, white wine was converted to 1 whereas red wine was 2. Also, using gridsearch with 3-fold cross validation was applied to find RBF kernel parameters of C and gamma. Confusion matrices for this case is shown below: 
+
+![White_wine=1,red_wine=2](SVM-confusion_matrix-RBF-mixed_1.png)               
+
+Then, same numbers were assigned vice versa (white wine = 2, red wine = 1) to observe any difference. Resulted confusion matrix is given below:
+
+![White_wine=2,red_wine=1](SVM-confusion_matrix-RBF-mixed_2.png)
+
+As you can see, much difference could not be observed in confusion matrices. Also, accuracy scores for both classifications were found 0.64. Confusion matrices for white and red wine datasets on which 'RBF' kernel was implemented is shown below (Left-white, Right-red):
+
+![White_wine, RBF](SVM-confusion_matrix-RBF-white.png)      ![Red_wine, RBF](SVM-confusion_matrix-RBF-red.png)
+
+Accuracy scores for white and red wine datasets are found as 0.63 and 0.60, respectively. Considering 0.64 accuracy score for mixed dataset, a decreasing trend for accuracy was observed while separating dataset. The reason for this may be smaller training sets with separated datasets compared to mixed where the features are not varying much by the wine type.
+
+  
+
 #### Model Cross Validation Results
 
 #### Discussion 
 
 ## Comparison of Prediction Models
 
-| Classifier Model | Accuracy Score |
+| First Header  | Second Header |
 | ------------- | ------------- |
-| Linear Regression  | xxx |
-| Polynomial Regression  | xxx |
-| Ridge Regression | xxx |
-| Lasso Regression | xxx |
-| Logistic Regression | 0.55 |
-| Decision Tree | 0.59 |
-| Ensemle Random Forest | 0.62 |
-| Support Vector Machine | xxx |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 ## Conclusion
 
