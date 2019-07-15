@@ -154,7 +154,7 @@ Result for Random Forest Classifier with following attributes
 
 Support vector machine (SVM) was implemented for multi-class classification using "one against one" approach. Different kernel functions were applied such as RBF, polynomial and linear on both mixed (red and white wine data together) and separated datasets (separated as red and white wine). Datasets were splitted as 1/3 for test and 2/3 for training where standardization was applied only on training set.
 
-While modelling mixed dataset, red and white wine being features should be converted to integers. This phenomenon has been investigated with RBF kernel. First, white wine was converted to 1 whereas red wine was 2. Also, using gridsearch with 3-fold cross validation, RBF kernel parameters of C and gamma were found. Confusion matrix for this case is shown below: 
+While modelling mixed dataset, red and white wine being a feature of dataset as the wine type, should be converted from stringes to integers. This phenomenon has been investigated with RBF kernel. First, white wine was converted to 1 whereas red wine was 2. Also, using gridsearch with 3-fold cross validation, RBF kernel parameters of C and gamma were found. Confusion matrix for this case is shown below: 
 
 ![White_wine=1,red_wine=2](SVM-confusion_matrix-RBF-mixed_1.png)               
 
@@ -168,7 +168,11 @@ As you can see, much difference could not be observed in above confusion matrice
 
 Accuracy scores for white and red wine datasets were found as 0.63 and 0.60, respectively. Considering 0.64 accuracy score for mixed dataset, a decreasing trend for accuracy was observed while separating dataset. The reason for this may be relatively smaller training sets with separated datasets where the features are not varying much by the wine type.
 
-  
+After RBF, other kernel functions were also investigated. Below figure shows that RBF kernel outperforms among others in terms of accuracy score, and is followed by polynomial and linear kernels, respectively.
+
+![Accuracy_score, RBF](SVM-accuracy_score.png) 
+
+In conclusion, maximum accuracy was obtained with RBF kernel on mixed dataset as 64 %.  
 
 #### Model Cross Validation Results
 
