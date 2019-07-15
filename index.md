@@ -154,7 +154,7 @@ Result for Random Forest Classifier with following attributes
 
 Support vector machine (SVM) was implemented for multi-class classification using "one against one" approach. Different kernel functions were applied such as RBF, polynomial and linear on both mixed (red and white wine data together) and separated datasets (separated as red and white wine). Datasets were splitted as 1/3 for test and 2/3 for training where standardization was applied only on training set.
 
-While modelling mixed dataset, red and white wine being a feature of dataset as the wine type, should be converted from string to integer. This phenomenon has been investigated with RBF kernel. First, white wine was converted to 1 whereas red wine was 2. Also, using gridsearch with 3-fold cross validation, RBF kernel parameters of C and gamma were found. Confusion matrix for this case is shown below: 
+While modelling the mixed dataset, red and white wine being a feature of dataset as the wine type, should be converted from string to an integer. This phenomenon has been investigated with RBF kernel. First, white wine was converted to 1 whereas red wine was 2. Also, using gridsearch with 3-fold cross validation, RBF kernel parameters of C and gamma were found. Confusion matrix for this case is shown below: 
 
 ![White_wine=1,red_wine=2](SVM-confusion_matrix-RBF-mixed_1.png)               
 
@@ -162,7 +162,7 @@ Then, same numbers were assigned vice versa (white wine = 2, red wine = 1) to ob
 
 ![White_wine=2,red_wine=1](SVM-confusion_matrix-RBF-mixed_2.png)
 
-As you can see, much difference could not be observed. However, accuracy scores for both classifications were found as 0.64. Confusion matrices for white and red wine datasets on which 'RBF' kernel was implemented is shown below (Left-white, Right-red):
+Much difference could not be observed. However, accuracy scores for both classifications were found as 0.64. Confusion matrices for white and red wine datasets on which 'RBF' kernel was implemented is shown below (Left-white wine, Right-red wine):
 
 ![White_wine, RBF](SVM-confusion_matrix-RBF-white.png)      ![Red_wine, RBF](SVM-confusion_matrix-RBF-red.png)
 
