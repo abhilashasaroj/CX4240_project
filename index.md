@@ -100,10 +100,10 @@ we can see the Lasso regression can get a higher score when \lambda is really sm
 
 ##### Discussion 
 
-|Model         | Linear        |
-| ------------- | ------------- |
-| MSE          | 0.5409       |
-| TEST Score   | 0.299        |
+|Model         | Linear        | Ridge,   lambda = 100| Lasso,  lambda= 0.0001 | polynomial, n = 2 |
+| ------------- | -------------| -------------------- |----------------------- |-------------------|
+| MSE          | 0.5409        |0.3799.               | 0.4257                 | 0.4848            |
+| TEST Score   | 0.299         |0.34                  | 0.39                   | 0.299             |
 
 
 ### Quality Prediction Using Logistic Regression - Abhilasha
