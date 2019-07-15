@@ -40,7 +40,7 @@ A dataset with 12 feature pushes us to conduct a Principal Componenet Analysis o
 [0.3176715, 0.21069888, 0.12999856, 0.08094213, 0.06034393, 0.0510322, 0.04471237, 0.04190673, 0.02934314, 0.02139346, 0.00994418]
 
 Cumulative variance explained by principal components
-![alt text](variance_pcs.png)
+![alt text](variance_pcs.PNG)
 
 While, transforming dataset into principal component space might not be very useful for modelling, it provides us a way to visualize the dataset with more than 3 dimensions.
 
