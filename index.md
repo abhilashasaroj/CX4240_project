@@ -4,9 +4,19 @@
 This study aims to compare the performance of different supervised learning algorithms to predict wine quality based on a wine’s physicochemical test results. Wine quality assessment is crucial in the wine industry and is assessed based on physicochemical tests at laboratories and on sensory tests that rely on human experts opinion on wine preferences [1].
 
 ## Background and Motivation - Renee
--> Why this is important? Can take from the proposal. 
--> give the ratio of test and training for all models 
--> Add outline of the webapage/presentation.
+In 2018, over 966 million gallons of wine was consumed in the United States [2]. The lack of understanding of physicochemical properties’ effect on the taste of wine and the behavior of human taste makes wine quality categorization non-trivial [3,4].The complexity in the accuracy of prediction and the importance of wine quality assessment in the wine industry motivate the research presented here.  In this presentation, we will apply and compare the performance of supervised learning algorithms to predict wine quality.
+
+The supervised learning models studied were regression, decision tree,  and support vector machine (SVM). The ratio of test data to training data was kept constant at 2 to 1 for each model.
+
+Today, we will:
+-Describe the data used
+-Describe the data manipulation techniques used
+-Results:
+ -Regression
+ -Decision Tree
+ -SVM
+-Comparison of different methods' results
+-Conclusions
 
 ## Data Description and Initial Data Exploration
 This section presents insights on the wine quality dataset which will be used to model quality predictions. 
@@ -14,12 +24,13 @@ This section presents insights on the wine quality dataset which will be used to
 ### Data Distribution in Dataset by Quality Lables and Wine Type
 
 Describe features, labels - Renee
-
 Add visualizations - Renee
  
 ![alt text](pic1.JPG)
 
 Present key insights - Renee
+
+![alt text](pic1.JPG)
 
 ### Feature Pairplot
 ![alt text](feature_plots.png)
@@ -194,6 +205,10 @@ In conclusion, maximum accuracy was obtained with RBF kernel on mixed dataset as
 ## Conclusion
 
 ## References
+[1] P. Cortez, A. Cerdeira, F. Almeida, T. Matos, J. Reis, “Modeling wine preferences by data mining from physicochemical properties,” Decision Support Systems,” Vol. 47(4), 2009, p. 547-553.
+[2] https://www.wineinstitute.org/resources/statistics/article86
+[3] A. Legin, A. Rudnitskaya, L. Luvova, Y. Vlasov, C. Natale, and A. D’Amico. Evaluation of Italian wine by the electronic tongue: recognition, quantitative analysis and correlation with human sensory perception. Analytica Chimica Acta, pages 33–34, 2003.
+[4] D. Smith and R. Margolskee. Making sense of taste. Scientific American, 284:26– 33, 2001.
 
 Thank you
 
