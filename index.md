@@ -30,7 +30,10 @@ Add visualizations - Renee
 
 Present key insights - Renee
 
-![alt text](pic1.JPG)
+![alt text](rtrpic1.JPG)
+![alt text](rtrpic2.JPG)
+![alt text](rtrpic3.JPG)
+![alt text](rtrpic4.JPG)
 
 ### Feature Pairplot
 ![alt text](feature_plots.png)
