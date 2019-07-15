@@ -59,7 +59,8 @@ We first split our training and test data into 66% and 34%, then we did the Line
 
 #### (2) Polynomial Regression
 First, Let's try fit the function when degree n = 3, the "true_y vs. predicted_y" looks like this:
-![alt text](polypred.png)
+<img width="388" alt="Screen Shot 2019-07-15 at 12 10 17 PM" src="https://user-images.githubusercontent.com/50888610/61231232-bed1d180-a6f9-11e9-8548-8a0b5db8f5cd.png">
+
 
 ##### the calculated MSE = 0.4848
 ##### Test Score = 0.3385
