@@ -32,7 +32,7 @@ This section presents insights on the wine quality dataset which will be used to
 ### Data Distribution in Dataset by Quality Lables and Wine Type
 The dataset consists of **6,463** samples. Each sample had **13** features.
 
-The features considered were: type (red or white), fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free sulfur dioxide, total sulfur dioxide, density, pH, sulphates, alcohol, and _quality_.
+The features considered were: type (red or white), fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free sulfur dioxide, total sulfur dioxide, density, pH, sulphates, alcohol, and **_quality_**.
 
 *NOTE*: 
 
@@ -44,7 +44,7 @@ The value 2 correponds to red wine
 
 There are a lot more white wine samples in the dataset than red wine samples, and we don't really have that much data for qualities that are rated 3 or 9.
 
-## How does the quality change with a change in a dimension?
+## How does the quality change with each dimension?
 
 ![alt text](rtrpic1.PNG)
 ![alt text](rtrpic2.PNG)
