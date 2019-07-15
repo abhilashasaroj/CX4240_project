@@ -42,12 +42,19 @@ The value 2 correponds to red wine
  
 ![alt text](pic1.JPG)
 
-From here
+There are a lot more white wine samples in the dataset than red wine samples, and we don't really have that much data for qualities that are rated 3 or 9.
+
+## How does the quality change with a change in a dimension?
 
 ![alt text](rtrpic1.PNG)
 ![alt text](rtrpic2.PNG)
+
+These two graphs show dimensions that are pretty constant over the quality range, meaning that they likely won't be very important dimensions in our models.
+
 ![alt text](rtrpic3.PNG)
 ![alt text](rtrpic4.PNG)
+
+These two graphs show dimensions that have large variability over each numerical quality **as well as** over wine type.
 
 ### Feature Pairplot
 ![alt text](feature_plots.png)
@@ -223,8 +230,11 @@ In conclusion, maximum accuracy was obtained with RBF kernel on mixed dataset as
 
 ## References
 [1] P. Cortez, A. Cerdeira, F. Almeida, T. Matos, J. Reis, “Modeling wine preferences by data mining from physicochemical properties,” Decision Support Systems,” Vol. 47(4), 2009, p. 547-553.
+
 [2] https://www.wineinstitute.org/resources/statistics/article86
+
 [3] A. Legin, A. Rudnitskaya, L. Luvova, Y. Vlasov, C. Natale, and A. D’Amico. Evaluation of Italian wine by the electronic tongue: recognition, quantitative analysis and correlation with human sensory perception. Analytica Chimica Acta, pages 33–34, 2003.
+
 [4] D. Smith and R. Margolskee. Making sense of taste. Scientific American, 284:26– 33, 2001.
 
 Thank you
