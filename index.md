@@ -59,7 +59,9 @@ These two graphs show dimensions that have large variability over each numerical
 ### Feature Pairplot
 ![alt text](feature_plots.png)
 
-Key insight on correlation betwen features - Renee
+The average of each dimension varies based off the type of wine that it is. 
+
+None of the dimensions are linearly separable from each other.
 
 ## Initial Data Exploration 
 ### Principal Componenet Analysis - Abhilasha
