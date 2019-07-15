@@ -170,7 +170,7 @@ Accuracy scores for white and red wine datasets were found as 0.63 and 0.60, res
 
 After RBF, other kernel functions were also investigated. Below figure shows that RBF kernel outperforms among others in terms of accuracy score, and is followed by polynomial and linear kernels, respectively.
 
-![Accuracy_score, RBF](SVM-accuracy_score.png) 
+![Accuracy_score, RBF](SVM-Accuracy_score.png) 
 
 In conclusion, maximum accuracy was obtained with RBF kernel on mixed dataset as 64 %.  
 
