@@ -9,26 +9,40 @@ In 2018, over 966 million gallons of wine was consumed in the United States [2].
 The supervised learning models studied were regression, decision tree,  and support vector machine (SVM). The ratio of test data to training data was kept constant at 2 to 1 for each model.
 
 Today, we will:
--Describe the data used
--Describe the data manipulation techniques used
--Results:
- -Regression
- -Decision Tree
- -SVM
--Comparison of different methods' results
--Conclusions
+
+1. Describe the data used
+
+2. Describe the data manipulation techniques used
+
+3. Results:
+
+   - Regression
+
+   - Decision Tree
+
+   - SVM
+
+4. Comparison of different methods' results
+
+5. Conclusions
 
 ## Data Description and Initial Data Exploration
 This section presents insights on the wine quality dataset which will be used to model quality predictions. 
 
 ### Data Distribution in Dataset by Quality Lables and Wine Type
+The dataset consists of **6,463** samples. Each sample had **13** features.
 
-Describe features, labels - Renee
-Add visualizations - Renee
+The features considered were: type (red or white), fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free sulfur dioxide, total sulfur dioxide, density, pH, sulphates, alcohol, and _quality_.
+
+*NOTE*: 
+
+The value 1 corresponds to white wine
+
+The value 2 correponds to red wine
  
 ![alt text](pic1.JPG)
 
-Present key insights - Renee
+From here
 
 ![alt text](rtrpic1.PNG)
 ![alt text](rtrpic2.PNG)
