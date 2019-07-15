@@ -40,12 +40,10 @@ Using principal component analysis, the spread of data is visualized in 2D and 3
 
 <iframe width="700" height="700" frameborder="0" scrolling="no" src="//plot.ly/~abhilashasaroj/108.embed"></iframe>
 
-Describe PC scores and result
-Add visualizations
-
 ## Supervised Learning Models for Wine Quality Prediction
--> Add outline
-### Quality Prediction Using Linear Regression and Polynomical Regression - Yi
+This section presents performance of several supervised learning models developed using given dataset to predict wine quality data. Traning to test data split ratio of 66% - 33% is used for validation. K-fold cross validation is used determine mean accuracy score. And confusion matrix is used to visualize the classification y the developed classifiers. 
+
+### Quality Prediction Using Linear Regression and Polynomical Regression
 First, let's look at the correlation among features and label('quality'):
 ![alt text](Cor-1.png)
 From the correlation map, we can see that the most correlated feature with 'quality' is 'alchol'.
@@ -71,7 +69,7 @@ it is worthnoting that the degree of polynormial function influece the fitting o
 ##### Discussion 
 By comparing the MSE between linear regression model and polynormial model, we can conclude that for our dataset, polynormial model (when n = 2) is a little bit better than linear regression model and n = other values.
 
-### Quality Prediction Using Ridge Regression and Lasso Regression - Yi 
+### Quality Prediction Using Ridge Regression and Lasso Regression
 #### (3) Ridge Regression
 For Ridge Regression, we add a regulation in the function to reduce the magnitude of the coefficients. Our goal is to find the 
 ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif) that can optimize the parameters. ![CodeCogsEqn](https://user-images.githubusercontent.com/50888610/61228984-51bc3d00-a6f5-11e9-818e-9dd169da3edc.gif) If we look at the cofficients for different features in RR here:
@@ -109,11 +107,13 @@ we can see the Lasso regression can get a higher score when ![CodeCogsEqn copy](
 | TEST Score   | 0.299         |0.34                  | 0.39                   | 0.299             |
 
 
-### Quality Prediction Using Logistic Regression - Abhilasha
+### Quality Prediction Using Logistic Regression
+Logistic regression is applied on the training datatset (66%) of complete dataset. The mean accuracy from 3-fold cross validation of this model is 0.55. Classification performance of logstic classifier is shown in the confusion matrix. True positives for labels 5 and 6 are highest. Labels 3,4, 8, and 9 are not getting predicted or classified correctly. 
 
 ![alt text](logistic_confusionmatrix_tale.PNG)
 
 ![alt text](logistic_confusion_colored.png)
+
 
 
 ![alt text](performance_of_logistic.png)
