@@ -164,10 +164,11 @@ This section investigates performance of decision tree based classification mode
 
 
 #### Decision Tree Classifier
+Decision tree classifier that uses criterion entropy is developed. The not pruned decision tree is large (shown in figure below). 
 
-![alt text](Project_saroj.svg)
+![alt text](decision_tree_igone.svg)
 
-Accuracy = 
+The accuracy of the decision tree when applied on test data is **0.59**. Though this is etter accuracy than logistic model, impruned decision tree classifier takes time to perform large amount of computation. To perform pruning of the decision tree it is important to know either the imporant features or how much depth is sufficient to provide a good accuracy. Towards this, following graph presents variation in model accuracy with varying "max tree depth" parameter. 
 
 ##### Pruned Decision Tree Classifier
 Depth=5
