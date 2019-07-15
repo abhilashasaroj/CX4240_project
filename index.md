@@ -44,7 +44,7 @@ The value 2 correponds to red wine
 
 There are a lot more white wine samples in the dataset than red wine samples, and we don't really have that much data for qualities that are rated 3 or 9.
 
-## How does the quality change with each dimension?
+### How does the quality change with each dimension?
 
 ![alt text](rtrpic1.PNG)
 ![alt text](rtrpic2.PNG)
