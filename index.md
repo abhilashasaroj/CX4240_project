@@ -177,16 +177,19 @@ After RBF, other kernel functions were also investigated. Below figure shows tha
 
 In conclusion, maximum accuracy was obtained with RBF kernel on mixed dataset as 64 %.  
 
-#### Model Cross Validation Results
-
-#### Discussion 
 
 ## Comparison of Prediction Models
 
-| First Header  | Second Header |
+| Learning Classifier | Accuracy |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Linear Regression  | xx  |
+| Polynomial Regression  | xx  |
+| Ridge Regression  | xx  |
+| Lasso Regression  |xx  |
+| Logistic Regression | xx |
+| Decision Tree  |xx |
+| Random Forest  | xx |
+| Support Vector Machine  | xx |
 
 ## Conclusion
 
