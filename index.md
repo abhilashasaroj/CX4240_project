@@ -150,15 +150,19 @@ we can see the Lasso regression can get a higher score when ![CodeCogsEqn copy](
 Logistic regression is applied on the training datatset (66%) of complete dataset. The mean accuracy from 3-fold cross validation of this model is 0.55. Classification performance of logstic classifier is shown in the confusion matrix. True positives for labels 5 and 6 are highest. Labels 3,4, 8, and 9 are not getting predicted or classified correctly. This could be because of lack of data points for these labels in the dataset, shown previously.
 
 ![alt text](logistic_confusionmatrix_tale.PNG)
+![alt text](logistic_confusion_colored.PNG)
 
-![alt text](logistic_confusion_colored.png)
 
-
-To check the consequences of overfitting, L2 norm regularized logistic regression model is developed. The accuracy of regualrized logistic model on test data with varying value C (inverse of regualrization parameter) is plotted. With lower value of C that is higher penalty the accuracy is lower. As we increase the value of C the accuracy increases. However, it attains a plateau after reaching accuracy of around 0.55.
+To check the consequences of overfitting, L2 norm regularized logistic regression model is developed. The accuracy of regualrized logistic model on test data with varying value C (inverse of regualrization parameter) is plotted. With lower value of C that is higher penalty the accuracy is lower. As we increase the value of C the accuracy increases. However, it attains a plateau after reaching accuracy of around **0.55**.
 
 ![alt text](performance_of_logistic.png)
 
+Further, classification performance of logistic regression model on data in principal component space is tested. Training data is transformed to the principal component space that explains 99% of variance. Logistic regression model is fit on the transformed training dataset and applied to predict quality of the transformed test dataset. The resulting mean accuracy from 3-fold cross validation is 0.54. Thus, not much difference is observed in the accuracy obtained from using logistic model on dataset directly versus using logistic on dataset in principal componenet space. However, logstic regression classifier performed better than linear regression models discussed above.
+
 ### Quality Prediction Using Decision Tree and Random Ensemble Classifier
+This section investigates performance of decision tree based classification models. 
+
+
 #### Decision Tree Classifier
 
 ![alt text](Project_saroj.svg)
