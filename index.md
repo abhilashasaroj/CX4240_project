@@ -67,7 +67,7 @@ None of the dimensions are linearly separable from each other.
 
 ## Initial Data Exploration 
 ### Principal Componenet Analysis
-A dataset with 12 feature pushes us to conduct a Principal Componenet Analysis on the data to consider possibility of dimenstion reduction. Principal componenet analysis result for complete dataset reveals that 0.99 of total variance in dataset is explained by first 11 eigenvalues. PCA result indicated not much of dimension reduction can be achieved by using 2 or 3 principal componenets. Thus, there are not easily identifiable directions in which signiifcant variance of the data points can be captured. 
+A dataset with 12 feature pushes us to conduct a Principal Componenet Analysis on the data to consider possibility of dimenstion reduction. Principal componenet analysis result for complete dataset reveals that 0.99 of total variance in dataset is explained by first 11 eigenvalues. PCA result indicated not much of dimension reduction can be achieved by using 2 or 3 principal components. Thus, there are not easily identifiable directions in which signiifcant variance of the data points can be captured. 
 
 [0.3176715, 0.21069888, 0.12999856, 0.08094213, 0.06034393, 0.0510322, 0.04471237, 0.04190673, 0.02934314, 0.02139346, 0.00994418]
 
@@ -80,7 +80,7 @@ Using principal component analysis, the spread of data is visualized in 2D and 3
 <iframe width="700" height="700" frameborder="0" scrolling="no" src="//plot.ly/~abhilashasaroj/108.embed"></iframe>
 
 ## Supervised Learning Models for Wine Quality Prediction
-This section presents performance of several supervised learning models developed using given dataset to predict wine quality data. Traning to test data split ratio of 66% - 33% is used for validation. K-fold cross validation is used determine mean accuracy score and confusion matrix is used to visualize the classification by the developed classifiers. 
+This section presents the performance of several supervised learning models developed using given dataset to predict the wine quality data. Traning to test data split ratio of 66% - 33% is used for validation. K-fold cross validation is used to determine mean accuracy score and confusion matrix is used to visualize the classification by the developed classifiers. 
 
 ### Quality Prediction Using Linear Regression and Polynomical Regression
 First, let's look at the correlation among features and label('quality'):
@@ -88,7 +88,7 @@ First, let's look at the correlation among features and label('quality'):
 From the correlation map, we can see that the most correlated feature with 'quality' is 'alchol'.
 Then we want to plot the relation between each feature and label:
 ![alt text](LR%20in%20seaborn.png)
-We can see that the linear relation bewteen each features and label is not very good prediction, so we want to do a linear combination of all features of dataset to do the prediction. 
+We can see that the linear relation between each features and label is not very good prediction, so we want to do a linear combination of all features of dataset to do the prediction. 
 #### (1) Linear Regression
 We first split our training and test data into 66% and 34%, then we did the Linear Regression Model to fit our function, here's the outcome of our "true_y vs. predicted_y" :
 ![alt text](LRpredict.png)
@@ -106,7 +106,7 @@ First, Let's try fit the function when degree n = 3, the "true_y vs. predicted_y
 it is worthnoting that the degree of polynormial function influece the fitting of model, beacaue we don't want to overfit or underfit the model. so we plot the 'MSE vs. polynormial degree n' to see which degree has the lowest MSE value:
 <img width="401" alt="Screen Shot 2019-07-15 at 12 13 22 PM" src="https://user-images.githubusercontent.com/50888610/61231341-f771ab00-a6f9-11e9-83f8-cfaa16ff383f.png">
 ##### Discussion 
-By comparing the MSE between linear regression model and polynormial model, we can conclude that for our dataset, polynormial model (when n = 2) is a little bit better than linear regression model and n = other values.
+By comparing the MSE between linear regression model and polynomial model, we can conclude that for our dataset, polynomial model (when n = 2) is a little bit better than linear regression model and n = other values.
 
 ### Quality Prediction Using Ridge Regression and Lasso Regression
 #### (3) Ridge Regression
@@ -121,13 +121,13 @@ if we look at the "MSE vs. ![CodeCogsEqn copy](https://user-images.githubusercon
  we can see that MSE will decrease first as ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif) increases and then it ramp to really high value,the lowest MSE was reached when ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif)is 100, we also plotted the "score vs. ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif)":
 ![alt text](Rscore1.png)
 
-we see for this case, score is presentinf an opposite trend as MSE, but it also shows a highest score at ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif) = 100.
+we see for this case, score is presenting an opposite trend as MSE, but it also shows the highest score at ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif) = 100.
 
 ##### at ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif)a = 100, the MSE = 0.3799 and the Test score = 0.34
 
 #### (4) Lasso Regression
 
-For Lasso Regerssion, ![CodeCogsEqn-2](https://user-images.githubusercontent.com/50888610/61230953-0c9a0a00-a6f9-11e9-9cda-8a1c3f04beff.gif), the regulation method is different with Ridge Regression. in RR, the regulation is related to squared coefficience, however, in LR, the regulation is only related to absolute value of coefficience. Therefore, we are expecting that when we increase the value of ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif), coefficients are approaching towards 0!!!! therefore, Lasso selects some features while reduce the coefficients of others to zero. if we look at the the cofficients for different features in LR here:
+For Lasso Regerssion, ![CodeCogsEqn-2](https://user-images.githubusercontent.com/50888610/61230953-0c9a0a00-a6f9-11e9-9cda-8a1c3f04beff.gif), the regulation method is different with Ridge Regression. in RR, the regulation is related to squared coefficient, however, in LR, the regulation is only related to absolute value of coefficient. Therefore, we are expecting that when we increase the value of ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif), coefficients are approaching towards 0!!!! therefore, Lasso selects some features while reduce the coefficients of others to zero. if we look at the the cofficients for different features in LR here:
 ![alt text](Lcof.png)
 
 if we look at the "MSE vs. ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif)" :
@@ -153,7 +153,7 @@ Logistic regression is applied on the training datatset (66%) of complete datase
 ![alt text](logistic_confusion_colored.PNG)
 
 
-To check the consequences of overfitting, L2 norm regularized logistic regression model is developed. The accuracy of regualrized logistic model on test data with varying value C (inverse of regualrization parameter) is plotted. With lower value of C that is higher penalty the accuracy is lower. As we increase the value of C the accuracy increases. However, it attains a plateau after reaching accuracy of around 0.55.
+To check the consequences of overfitting, L2 norm regularized logistic regression model is developed. The accuracy of regularized logistic model on test data with varying value C (inverse of regualrization parameter) is plotted. With lower value of C that is higher penalty the accuracy is lower. As we increase the value of C the accuracy increases. However, it attains a plateau after reaching accuracy of around 0.55.
 
 ![alt text](performance_of_logistic.png)
 
@@ -163,7 +163,7 @@ Further, classification performance of logistic regression model on data in prin
 This section investigates performance of decision tree based classification models. 
 
 #### Decision Tree Classifier
-Decision tree classifier that uses entropy criterion to decide which feature should be split and at which value. The not pruned decision tree is large (shown in figure below). Max depth of this decision tree is 23. 
+Decision tree classifier that uses entropy criterion to decide which feature should be splitted and at which value. The non-pruned decision tree is large (shown in figure below). Max depth of this decision tree is 23. 
 
 
 ![alt text](decision_tree_igone.svg)
@@ -187,7 +187,7 @@ Depth=3, Accuracy = 0.52
 
 ![alt text](prepruned_3.svg)
 
-Although a not-pruned decision tree based classifier for some cases is able to achieve accuracy of 0.59, the mean crossvalidated score is 0.55. To save computation time, the depth of tree can be reduced. With max depth of more than 15, the decision tree classifier performs better than logistic regression that gave accuracy of 0.55.
+Although a non-pruned decision tree based classifier for some cases is able to achieve accuracy of 0.59, the mean crossvalidated score is 0.55. To save computation time, the depth of tree can be reduced. With max depth of more than 15, the decision tree classifier performs better than logistic regression that gave accuracy of 0.55.
 
 #### Ensemble Random Forest Classifier
 To avoid overfitting issues from decision tree classifier and to investigate accuracy of prediction model, ensemble random forest classifier is fitted on training data. In ensemble random forest classifier, several samples of data are created by random sampling from dataset with replacement. Each sample is used to learn provide classification using decision trees (also known as estimators). The classification value obtained in majority among all trees is the classification that random forest classifier produces.
@@ -224,17 +224,17 @@ Then, same numbers were assigned vice versa (white wine = 2, red wine = 1) to ob
 
 ![White_wine=2,red_wine=1](SVM-confusion_matrix-RBF-mixed_2.png)
 
-Much difference could not be observed. However, accuracy scores for both classifications were found as 0.64. Confusion matrices for white and red wine datasets on which 'RBF' kernel was implemented is shown below (Left-white wine, Right-red wine):
+Much difference could not be observed. However, accuracy scores for both classifications were found as 64 %. Confusion matrices for white and red wine datasets on which 'RBF' kernel was implemented is shown below (Left-white wine, Right-red wine):
 
 ![White_wine, RBF](SVM-confusion_matrix-RBF-white.png)      ![Red_wine, RBF](SVM-confusion_matrix-RBF-red.png)
 
-Accuracy scores for white and red wine datasets were found as 0.63 and 0.60, respectively. Considering 0.64 accuracy score for mixed dataset, a decreasing trend was observed for separated datasets. The reason may be relatively smaller training sets with separated datasets where the features are not varying much by the wine type.
+Accuracy scores for white and red wine datasets were found as 63 % and 60 %, respectively. Considering 64 % accuracy score for mixed dataset, a decreasing trend was observed for separated datasets. The reason may be relatively smaller training sets with separated datasets where the features are not varying much by the wine type.
 
-After RBF, other kernel functions were also investigated. Below figure shows that RBF kernel outperforms among others in terms of accuracy score, and is followed by polynomial and linear kernels, respectively.
+After RBF, other kernel functions were also investigated. Below figure shows that RBF kernel outperforms among others in terms of the accuracy score, and is followed by polynomial and linear kernels, respectively.
 
 ![Accuracy_score, RBF](SVM-Accuracy_score.png) 
 
-In conclusion, maximum accuracy was obtained with RBF kernel on mixed dataset as 0.64.  
+In conclusion, maximum accuracy was obtained with RBF kernel on mixed dataset as 64 %.  
 
 ## Conclusion
 
