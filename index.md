@@ -174,29 +174,42 @@ Decision tree classifier that uses entropy criterion to decide which feature sho
    provide a good accuracy.
  
  Following graph presents variation in model accuracy with varying "max tree depth" parameter. 
+ 
 ![alt text](tree_Accuracy_versus_treedepth.PNG)
 
 ##### Example: Pre-Pruned Decision Tree Classifiers
 Depth=5, Accuracy = 0.54
+
 ![alt text](prepruned_5.svg)
 
 Depth=3, Accuracy = 0.52
+
 ![alt text](prepruned_3.svg)
 
 Although a not-pruned decision tree based classifier for some cases is able to achieve accuracy of 0.59, the mean crossvalidated score is 0.55. To save computation time, the depth of tree can be reduced. With max depth of more than 15, the decision tree classifier performs better than logistic regression that gave accuracy of 0.55.
 
 #### Ensemble Random Forest Classifier
+To avoid overfitting issues from decision tree classifier and to investigate accuracy of prediction model, ensemble random forest classifier is fitted on training data. In ensemble random forest classifier, several samples of data are created by random sampling from dataset with replacement. Each sample is used to learn provide classification using decision trees (also known as estimators). The classification value obtained in majority among all trees is the classification that random forest classifier produces.
 
-Result for Random Forest Classifier with following attributes
+*Result for Random Forest Classifier*
 
 1. n_estimators = 100
 2. Depth_limit = None
 3. Bootstrap = True, Model uses bootstrapped dataset to create trees instead of while dataset.
 
-*Accuracy score = 0.62*
+Accuracy score = **0.61**
 
-![alt text](Project_saroj_rf_estimator2_n100_ootstrap.svg)
+![alt text](rf_100_maxfeatures.svg.svg)
 
+1. n_estimators = 500
+2. Depth_limit = None
+3. Bootstrap = True, Model uses bootstrapped dataset to create trees instead of while dataset.
+
+Accuracy score = **0.62**
+
+![alt text](rf_500_maxfeatures.svg.svg)
+
+Accuracy score increased significantly on using ensemble random forest classifier over using deicison tree classifier. 
 
 ### Quality Prediction Using Support Vector Machine
 
@@ -220,23 +233,34 @@ After RBF, other kernel functions were also investigated. Below figure shows tha
 
 ![Accuracy_score, RBF](SVM-Accuracy_score.png) 
 
-In conclusion, maximum accuracy was obtained with RBF kernel on mixed dataset as 64 %.  
+In conclusion, maximum accuracy was obtained with RBF kernel on mixed dataset as 0.64.  
 
+## Conclusion
 
-## Comparison of Prediction Models
+   - Prediction of wine quality for the given dataset was challenging because of the multi-class labeling (7 labels of quality)
+   - The distribution of data for quality label instances in the dataset is imbalances. This might have made it diffcult for classifiers
+   to learn to predict the labels for which data instances are less.
+   - Principal component analysis on dataset revealed the "dense spread" of data in the principal component space.
+   
+Table below summarizes model accuracy values obtained for the 8 supervised learning algorithms investigated.
 
 | Learning Classifier | Accuracy |
 | ------------- | ------------- |
-| Linear Regression  | xx  |
-| Polynomial Regression  | xx  |
-| Ridge Regression  | xx  |
-| Lasso Regression  |xx  |
+| Linear Regression  | 0.29 |
+| Polynomial Regression  | 0.34 |
+| Ridge Regression  | 0.34 |
+| Lasso Regression  | 0.39 |
 | Logistic Regression | 0.55 |
 | Decision Tree  | 0.55 |
-| Random Forest  | xx |
-| Support Vector Machine  | xx |
+| Random Forest  | 0.61 |
+| Support Vector Machine  | 0.64 |
 
-## Conclusion
+   - Support vector machine classifier suited best for wine quality prediction, closely followed by Ensemble random forest classifier.
+   - Next to them, Decision tree classifier and logistic regression classifier performed at par. 
+   - Regularized linear regression classifiers (ridge regression and lasso regression) and plolynomial linear regression model performed
+   at par.
+   - Simple linear regression classifier produced least accurate result.
+
 
 ## References
 [1] P. Cortez, A. Cerdeira, F. Almeida, T. Matos, J. Reis, “Modeling wine preferences by data mining from physicochemical properties,” Decision Support Systems,” Vol. 47(4), 2009, p. 547-553.
@@ -247,6 +271,6 @@ In conclusion, maximum accuracy was obtained with RBF kernel on mixed dataset as
 
 [4] D. Smith and R. Margolskee. Making sense of taste. Scientific American, 284:26– 33, 2001.
 
-Thank you
+## Thank you
 
 
