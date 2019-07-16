@@ -164,24 +164,26 @@ This section investigates performance of decision tree based classification mode
 
 
 #### Decision Tree Classifier
-Decision tree classifier that uses criterion entropy is developed. The not pruned decision tree is large (shown in figure below). 
+Decision tree classifier that uses entropy criterion to decide which feature should be split and at which value. The not pruned decision tree is large (shown in figure below). Max depth of this decision tree is 23. 
 
 ![alt text](decision_tree_igone.svg)
 
-The accuracy of the decision tree when applied on test data is **0.59**. Though this is etter accuracy than logistic model, impruned decision tree classifier takes time to perform large amount of computation. To perform pruning of the decision tree it is important to know either the imporant features or how much depth is sufficient to provide a good accuracy. Towards this, following graph presents variation in model accuracy with varying "max tree depth" parameter. 
+   - The mean cross validated accuracy of the decision tree to predict labels is 0.55. Though this is similar to logistic model,
+   impruned decision tree classifier takes time to perform large amount of computation. 
+   - To perform pruning of the decision tree it is important to know either the imporant features or how much depth is sufficient to
+   provide a good accuracy.
+ 
+ Following graph presents variation in model accuracy with varying "max tree depth" parameter. 
+![alt text](tree_Accuracy_versus_treedepth.PNG)
 
-##### Pruned Decision Tree Classifier
-Depth=5
-![alt text](Project_saroj_5.svg)
+##### Example: Pre-Pruned Decision Tree Classifiers
+Depth=5, Accuracy = 0.54
+![alt text](prepruned_5.svg)
 
-Accuracy =
+Depth=3, Accuracy = 0.52
+![alt text](prepruned_3.svg)
 
-Depth =3
-![alt text](Project_saroj_3.svg)
-
-Accuracy =
-
-##### Discussion 
+Although a not-pruned decision tree based classifier for some cases is able to achieve accuracy of 0.59, the mean crossvalidated score is 0.55. To save computation time, the depth of tree can be reduced. With max depth of more than 15, the decision tree classifier performs better than logistic regression that gave accuracy of 0.55.
 
 #### Ensemble Random Forest Classifier
 
@@ -229,8 +231,8 @@ In conclusion, maximum accuracy was obtained with RBF kernel on mixed dataset as
 | Polynomial Regression  | xx  |
 | Ridge Regression  | xx  |
 | Lasso Regression  |xx  |
-| Logistic Regression | xx |
-| Decision Tree  |xx |
+| Logistic Regression | 0.55 |
+| Decision Tree  | 0.55 |
 | Random Forest  | xx |
 | Support Vector Machine  | xx |
 
