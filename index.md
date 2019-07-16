@@ -143,7 +143,7 @@ we can see the Lasso regression can get a higher score when ![CodeCogsEqn copy](
 |Model         | Linear        | Ridge,   ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif) = 100| Lasso, ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif)= 0.0001 | polynomial, n = 2 |
 | ------------- | -------------| -------------------- |----------------------- |-------------------|
 | MSE          | 0.5409        |0.3799.               | 0.4257                 | 0.4848            |
-| TEST Score   | 0.299         |0.34                  | 0.39                   | 0.299             |
+| TEST Score   | 0.299         |0.34                  | 0.39                   | 0.34            |
 
 
 ### Quality Prediction Using Logistic Regression
