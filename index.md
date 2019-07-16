@@ -153,7 +153,7 @@ Logistic regression is applied on the training datatset (66%) of complete datase
 ![alt text](logistic_confusion_colored.PNG)
 
 
-To check the consequences of overfitting, L2 norm regularized logistic regression model is developed. The accuracy of regualrized logistic model on test data with varying value C (inverse of regualrization parameter) is plotted. With lower value of C that is higher penalty the accuracy is lower. As we increase the value of C the accuracy increases. However, it attains a plateau after reaching accuracy of around **0.55**.
+To check the consequences of overfitting, L2 norm regularized logistic regression model is developed. The accuracy of regualrized logistic model on test data with varying value C (inverse of regualrization parameter) is plotted. With lower value of C that is higher penalty the accuracy is lower. As we increase the value of C the accuracy increases. However, it attains a plateau after reaching accuracy of around 0.55.
 
 ![alt text](performance_of_logistic.png)
 
@@ -198,7 +198,7 @@ To avoid overfitting issues from decision tree classifier and to investigate acc
 2. Depth_limit = None
 3. Bootstrap = True, Model uses bootstrapped dataset to create trees instead of while dataset.
 
-Accuracy score = **0.61**
+Accuracy score = 0.61
 
 ![alt text](rf_100_maxfeatures.svg)
 
@@ -206,7 +206,7 @@ Accuracy score = **0.61**
 2. Depth_limit = None
 3. Bootstrap = True, Model uses bootstrapped dataset to create trees instead of while dataset.
 
-Accuracy score = **0.62**
+Accuracy score = 0.62
 
 ![alt text](rf_500_maxfeatures.svg)
 
@@ -242,6 +242,11 @@ In conclusion, maximum accuracy was obtained with RBF kernel on mixed dataset as
    - The distribution of data for quality label instances in the dataset is imbalances. This might have made it diffcult for classifiers
    to learn to predict the labels for which data instances are less.
    - Principal component analysis on dataset revealed the "dense spread" of data in the principal component space.
+   - Support vector machine classifier suited best for wine quality prediction, closely followed by Ensemble random forest classifier.
+   - Next to them, Decision tree classifier and logistic regression classifier performed at par. 
+   - Regularized linear regression classifiers (ridge regression and lasso regression) and plolynomial linear regression model performed
+   at par.
+   - Simple linear regression classifier produced least accurate result.
    
 Table below summarizes model accuracy values obtained for the 8 supervised learning algorithms investigated.
 
@@ -256,11 +261,7 @@ Table below summarizes model accuracy values obtained for the 8 supervised learn
 | Random Forest  | 0.61 |
 | Support Vector Machine  | 0.64 |
 
-   - Support vector machine classifier suited best for wine quality prediction, closely followed by Ensemble random forest classifier.
-   - Next to them, Decision tree classifier and logistic regression classifier performed at par. 
-   - Regularized linear regression classifiers (ridge regression and lasso regression) and plolynomial linear regression model performed
-   at par.
-   - Simple linear regression classifier produced least accurate result.
+
 
 
 ## References
