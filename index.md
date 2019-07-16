@@ -82,7 +82,7 @@ Using principal component analysis, the spread of data is visualized in 2D and 3
 ## Supervised Learning Models for Wine Quality Prediction
 This section presents the performance of several supervised learning models developed using given dataset to predict the wine quality data. Traning to test data split ratio of 66% - 33% is used for validation. K-fold cross validation is used to determine mean accuracy score and confusion matrix is used to visualize the classification by the developed classifiers. 
 
-### Quality Prediction Using Linear Regression and Polynomical Regression
+### Quality Prediction Using Linear Regression and Polynomial Regression
 First, let's look at the correlation among features and label('quality'):
 ![alt text](Cor-1.png)
 From the correlation map, we can see that the most correlated feature with 'quality' is 'alcohol'.
