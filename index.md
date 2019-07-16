@@ -34,7 +34,7 @@ This section presents insights on the wine quality dataset which will be used to
 ### Data Distribution in Dataset by Quality Labels and Wine Type
 The dataset consists of **6,463** samples. Each sample had **12** features.
 
-The features considered were: type (red or white), fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free sulfur dioxide, total sulfur dioxide, density, pH, sulphates, alcohol, and **_quality_**.
+The features considered were: type (red or white), fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free sulfur dioxide, total sulfur dioxide, density, pH, sulphates and alcohol.
 
 *NOTE*: 
 
