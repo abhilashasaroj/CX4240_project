@@ -103,7 +103,7 @@ First, Let's try fit the function when degree n = 3, the "true_y vs. predicted_y
 
 ##### the calculated MSE = 0.4848
 ##### Test Score = 0.3385
-it is worthnoting that the degree of polynormial function influece the fitting of model, beacaue we don't want to overfit or underfit the model. so we plot the 'MSE vs. polynormial degree n' to see which degree has the lowest MSE value:
+it is worthnoting that the degree of polynomial function influences the fitting of model. However, we don't want to overfit or underfit the model. so we plot the 'MSE vs. polynomial degree n' to see which degree has the lowest MSE value:
 <img width="401" alt="Screen Shot 2019-07-15 at 12 13 22 PM" src="https://user-images.githubusercontent.com/50888610/61231341-f771ab00-a6f9-11e9-83f8-cfaa16ff383f.png">
 ##### Discussion 
 By comparing the MSE between linear regression model and polynomial model, we can conclude that for our dataset, polynomial model (when n = 2) is a little bit better than linear regression model and n = other values.
