@@ -4,7 +4,7 @@
 This study aims to compare the performance of different supervised learning algorithms to predict wine quality based on wine’s physicochemical test results. Wine quality assessment is crucial in the wine industry and is assessed based on physicochemical tests at laboratories and on sensory tests that rely on human experts opinion on wine preferences [1].
 
 ## Background and Motivation
-In 2018, over 966 million gallons of wine was consumed in the United States [2]. The lack of understanding of physicochemical properties’ effect on the taste of wine and the behavior of human taste makes wine quality categorization non-trivial [3,4].The complexity in the accuracy of prediction and the importance of wine quality assessment in the wine industry motivate the research presented here.  In this presentation, we will apply and compare the performance of supervised learning algorithms to predict wine quality.
+In 2018, over 966 million gallons of wine was consumed in the United States [2]. The lack of understanding of physicochemical properties’ effect on the taste of wine and the behavior of human taste makes wine quality categorization non-trivial [3,4].The complexity in the accuracy of prediction and the importance of wine quality assessment in the wine industry motivates the research presented here.  In this presentation, we will apply and compare the performance of supervised learning algorithms to predict wine quality.
 
 The supervised learning models studied were linear regression, logistic regression, decision tree, random forest  and support vector machine (SVM). The ratio of test data to training data was kept constant at 2 to 1 for each model.
 
@@ -67,7 +67,7 @@ None of the dimensions are linearly separable from each other.
 
 ## Initial Data Exploration 
 ### Principal Componenet Analysis
-A dataset with 12 feature pushes us to conduct a Principal Componenet Analysis on the data to consider possibility of dimenstion reduction. Principal componenet analysis result for complete dataset reveals that 0.99 of total variance in dataset is explained by first 11 eigenvalues. PCA result indicated not much of dimension reduction can be achieved by using 2 or 3 principal components. Thus, there are not easily identifiable directions in which signiifcant variance of the data points can be captured. 
+A dataset with 12 features pushes us to conduct a Principal Componenet Analysis on the data to consider possibility of dimenstion reduction. Principal componenet analysis results for complete dataset reveals that 0.99 of total variance in dataset is explained by first 11 eigenvalues. PCA result indicated not much of dimension reduction can be achieved by using 2 or 3 principal components. Thus, there are not easily identifiable directions in which signiifcant variance of the data points can be captured. 
 
 [0.3176715, 0.21069888, 0.12999856, 0.08094213, 0.06034393, 0.0510322, 0.04471237, 0.04190673, 0.02934314, 0.02139346, 0.00994418]
 
