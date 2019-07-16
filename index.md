@@ -31,8 +31,8 @@ Today, we will:
 ## Data Description and Initial Data Exploration
 This section presents insights on the wine quality dataset which will be used to model quality predictions. 
 
-### Data Distribution in Dataset by Quality Lables and Wine Type
-The dataset consists of **6,463** samples. Each sample had **13** features.
+### Data Distribution in Dataset by Quality Labels and Wine Type
+The dataset consists of **6,463** samples. Each sample had **12** features.
 
 The features considered were: type (red or white), fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free sulfur dioxide, total sulfur dioxide, density, pH, sulphates, alcohol, and **_quality_**.
 
