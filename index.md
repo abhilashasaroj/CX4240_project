@@ -162,11 +162,12 @@ Further, classification performance of logistic regression model on data in prin
 ### Quality Prediction Using Decision Tree and Random Ensemble Classifier
 This section investigates performance of decision tree based classification models. 
 
-
 #### Decision Tree Classifier
 Decision tree classifier that uses entropy criterion to decide which feature should be split and at which value. The not pruned decision tree is large (shown in figure below). Max depth of this decision tree is 23. 
 
+
 ![alt text](decision_tree_igone.svg)
+
 
    - The mean cross validated accuracy of the decision tree to predict labels is 0.55. Though this is similar to logistic model,
    impruned decision tree classifier takes time to perform large amount of computation. 
@@ -199,7 +200,7 @@ To avoid overfitting issues from decision tree classifier and to investigate acc
 
 Accuracy score = **0.61**
 
-![alt text](rf_100_maxfeatures.svg.svg)
+![alt text](rf_100_maxfeatures.svg)
 
 1. n_estimators = 500
 2. Depth_limit = None
@@ -207,7 +208,7 @@ Accuracy score = **0.61**
 
 Accuracy score = **0.62**
 
-![alt text](rf_500_maxfeatures.svg.svg)
+![alt text](rf_500_maxfeatures.svg)
 
 Accuracy score increased significantly on using ensemble random forest classifier over using deicison tree classifier. 
 
