@@ -77,7 +77,7 @@ Using principal component analysis, the spread of data is visualized in 2D and 3
 
 ![alt text](pc_2d.png)
 
-<iframe width="700" height="700" frameborder="0" scrolling="no" src="//plot.ly/~abhilashasaroj/108.embed"></iframe>
+<iframe width="750" height="700" frameborder="0" scrolling="no" src="//plot.ly/~abhilashasaroj/108.embed"></iframe>
 
 ## Supervised Learning Models for Wine Quality Prediction
 This section presents the performance of several supervised learning models developed using given dataset to predict the wine quality data. Traning to test data split ratio of 66% - 33% is used for validation. K-fold cross validation is used to determine mean accuracy score and confusion matrix is used to visualize the classification by the developed classifiers. 
