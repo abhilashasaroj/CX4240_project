@@ -111,7 +111,8 @@ By comparing the MSE between linear regression model and polynomial model, we ca
 ### Quality Prediction Using Ridge Regression and Lasso Regression
 #### (3) Ridge Regression
 For Ridge Regression, we added a regularization in the function to reduce the magnitude of the coefficients. Our goal is to find the 
-![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif) that can optimize the parameters. ![CodeCogsEqn](https://user-images.githubusercontent.com/50888610/61228984-51bc3d00-a6f5-11e9-818e-9dd169da3edc.gif) If we look at the coefficients for different features in RR here:
+![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif) that can optimize the parameters. ![CodeCogsEqn](https://user-images.githubusercontent.com/50888610/61228984-51bc3d00-a6f5-11e9-818e-9dd169da3edc.gif) 
+If we look at the coefficients for different features in RR here:
 
 ![alt text](Rcof.png)
 As we increase ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif), it is observed that the magnitude of coefficients decreases. This is because higher the ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif)  is, bigger is the penalty and therefore, the magnitude of coefficients are reduced.
