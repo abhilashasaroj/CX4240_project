@@ -106,36 +106,36 @@ First, Let's try fit the function when degree n = 3, the "true_y vs. predicted_y
 it is worthnoting that the degree of polynomial function influences the fitting of model. However, we don't want to overfit or underfit the model. so we plot the 'MSE vs. polynomial degree n' to see which degree has the lowest MSE value:
 <img width="401" alt="Screen Shot 2019-07-15 at 12 13 22 PM" src="https://user-images.githubusercontent.com/50888610/61231341-f771ab00-a6f9-11e9-83f8-cfaa16ff383f.png">
 ##### Discussion 
-By comparing the MSE between linear regression model and polynomial model, we can conclude that for our dataset, polynomial model (when n = 2) is a little bit better than linear regression model and n = other values.
+By comparing the MSE between linear regression model and polynomial model, we can conclude that for our dataset, polynomial model (when n = 2) is a little bit better than linear regression model and models with different n values than 2.
 
 ### Quality Prediction Using Ridge Regression and Lasso Regression
 #### (3) Ridge Regression
-For Ridge Regression, we add a regulation in the function to reduce the magnitude of the coefficients. Our goal is to find the 
-![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif) that can optimize the parameters. ![CodeCogsEqn](https://user-images.githubusercontent.com/50888610/61228984-51bc3d00-a6f5-11e9-818e-9dd169da3edc.gif) If we look at the cofficients for different features in RR here:
+For Ridge Regression, we added a regularization in the function to reduce the magnitude of the coefficients. Our goal is to find the 
+![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif) that can optimize the parameters. ![CodeCogsEqn](https://user-images.githubusercontent.com/50888610/61228984-51bc3d00-a6f5-11e9-818e-9dd169da3edc.gif) If we look at the coefficients for different features in RR here:
 
 ![alt text](Rcof.png)
-As we increase ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif), we will see that the magnitude of coefficeints decrease.This is because higher the ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif)  is, bigger is the penalty and therefore, the magnitude of coefficients are reduced.
+As we increase ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif), it is observed that the magnitude of coefficients decreases. This is because higher the ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif)  is, bigger is the penalty and therefore, the magnitude of coefficients are reduced.
 
-if we look at the "MSE vs. ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif)" :
+If we look at the "MSE vs. ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif)" :
 ![alt text](RMSE1.png)
- we can see that MSE will decrease first as ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif) increases and then it ramp to really high value,the lowest MSE was reached when ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif)is 100, we also plotted the "score vs. ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif)":
+ We can see that MSE will decrease first as ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif) increases and then it ramps to really high value, the lowest MSE was reached when ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif)is 100, we also plotted the "score vs. ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif)":
 ![alt text](Rscore1.png)
 
-we see for this case, score is presenting an opposite trend as MSE, but it also shows the highest score at ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif) = 100.
+we see for this case, score presents an opposite trend as MSE, but it also shows the highest score at ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif) = 100.
 
 ##### at ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif)a = 100, the MSE = 0.3799 and the Test score = 0.34
 
 #### (4) Lasso Regression
 
-For Lasso Regerssion, ![CodeCogsEqn-2](https://user-images.githubusercontent.com/50888610/61230953-0c9a0a00-a6f9-11e9-9cda-8a1c3f04beff.gif), the regulation method is different with Ridge Regression. in RR, the regulation is related to squared coefficient, however, in LR, the regulation is only related to absolute value of coefficient. Therefore, we are expecting that when we increase the value of ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif), coefficients are approaching towards 0!!!! therefore, Lasso selects some features while reduce the coefficients of others to zero. if we look at the the cofficients for different features in LR here:
+For Lasso Regression, ![CodeCogsEqn-2](https://user-images.githubusercontent.com/50888610/61230953-0c9a0a00-a6f9-11e9-9cda-8a1c3f04beff.gif), the regularization method is different with Ridge Regression. in RR, the regularization is related to squared coefficient, however, in LR, the regulation is only related to absolute value of coefficient. Therefore, we are expecting that when we increase the value of ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif), coefficients are approaching towards 0!!!! Therefore, Lasso selects some features while reducing the coefficients of others to zero. If we look at the the coefficients for different features in LR here:
 ![alt text](Lcof.png)
 
-if we look at the "MSE vs. ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif)" :
+If we look at the "MSE vs. ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif)" :
 ![alt text](LMSE.png)
- we can see that MSE keeps increase as we increase ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif), and then it reach a platue states. we also plotted the "score vs. ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif)":
+ We can see that MSE keeps increase as we increase ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif), and then it reaches a platue state. We also plotted the "score vs. ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif)":
 ![alt text](Lscore.png)
 
-we can see the Lasso regression can get a higher score when ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif) is really small. at ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif) = 0.0001, the MSE = 0.42578, and Test score = 0.39
+We can see the Lasso regression can get a higher score when ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif) is really small. at ![CodeCogsEqn copy](https://user-images.githubusercontent.com/50888610/61229092-84fecc00-a6f5-11e9-9b12-e9e1caf5f0f0.gif) = 0.0001, the MSE = 0.42578, and Test score = 0.39
 
 
 ##### Discussion 
