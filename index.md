@@ -148,7 +148,7 @@ We can see the Lasso regression can get a higher score when ![CodeCogsEqn copy](
 
 
 ### Quality Prediction Using Logistic Regression
-Logistic regression is applied on the training datatset (66%) of complete dataset. The mean accuracy from 3-fold cross validation of this model is 0.55. Classification performance of logstic classifier is shown in the confusion matrix. True positives for labels 5 and 6 are highest. Labels 3,4, 8, and 9 are not getting predicted or classified correctly. This could be because of lack of data points for these labels in the dataset, shown previously.
+Logistic regression is applied on the training datatset (66 %) of complete dataset. The mean accuracy from 3-fold cross validation of this model is 0.55. Classification performance of logstic classifier is shown in the confusion matrix. True positives for labels 5 and 6 are highest. Labels 3,4, 8, and 9 are not getting predicted or classified correctly. This could be because of lack of data points for these labels in the dataset, shown previously.
 
 ![alt text](logistic_confusionmatrix_tale.PNG)
 ![alt text](logistic_confusion_colored.PNG)
@@ -188,7 +188,7 @@ Depth=3, Accuracy = 0.52
 
 ![alt text](prepruned_3.svg)
 
-Although a non-pruned decision tree based classifier for some cases is able to achieve accuracy of 0.59, the mean crossvalidated score is 0.55. To save computation time, the depth of tree can be reduced. With max depth of more than 15, the decision tree classifier performs better than logistic regression that gave accuracy of 0.55.
+Although a non-pruned decision tree based classifier for some cases is able to achieve accuracy of 0.59, the mean cross-validated score is 0.55. To save computation time, the depth of tree can be reduced. With max depth of more than 15, the decision tree classifier performs better than logistic regression that gave accuracy of 0.55.
 
 #### Ensemble Random Forest Classifier
 To avoid overfitting issues from decision tree classifier and to investigate accuracy of prediction model, ensemble random forest classifier is fitted on training data. In ensemble random forest classifier, several samples of data are created by random sampling from dataset with replacement. Each sample is used to learn provide classification using decision trees (also known as estimators). The classification value obtained in majority among all trees is the classification that random forest classifier produces.
@@ -240,11 +240,10 @@ In conclusion, maximum accuracy was obtained with RBF kernel on mixed dataset as
 ## Conclusion
 
    - Prediction of wine quality for the given dataset was challenging because of the multi-class labeling (7 labels of quality)
-   - The distribution of data for quality label instances in the dataset is imbalances. This might have made it diffcult for classifiers
-   to learn to predict the labels for which data instances are less.
+   - The distribution of data for quality label instances in the dataset is imbalanced. This might have made it difficult for classifiers to predict the labels.
    - Principal component analysis on dataset revealed the "dense spread" of data in the principal component space.
    - Support vector machine classifier suited best for wine quality prediction, closely followed by Ensemble random forest classifier.
-   - Next to them, Decision tree classifier and logistic regression classifier performed at par. 
+   - Next to them, decision tree classifier and logistic regression classifier performed at par. 
    - Regularized linear regression classifiers (ridge regression and lasso regression) and polynomial linear regression model performed
    at par.
    - Simple linear regression classifier produced least accurate result.
