@@ -244,7 +244,7 @@ In conclusion, maximum accuracy was obtained with RBF kernel on mixed dataset as
    - Principal component analysis on dataset revealed the "dense spread" of data in the principal component space.
    - Support vector machine classifier suited best for wine quality prediction, closely followed by Ensemble random forest classifier.
    - Next to them, Decision tree classifier and logistic regression classifier performed at par. 
-   - Regularized linear regression classifiers (ridge regression and lasso regression) and plolynomial linear regression model performed
+   - Regularized linear regression classifiers (ridge regression and lasso regression) and polynomial linear regression model performed
    at par.
    - Simple linear regression classifier produced least accurate result.
    
