@@ -85,7 +85,7 @@ This section presents the performance of several supervised learning models deve
 ### Quality Prediction Using Linear Regression and Polynomical Regression
 First, let's look at the correlation among features and label('quality'):
 ![alt text](Cor-1.png)
-From the correlation map, we can see that the most correlated feature with 'quality' is 'alchol'.
+From the correlation map, we can see that the most correlated feature with 'quality' is 'alcohol'.
 Then we want to plot the relation between each feature and label:
 ![alt text](LR%20in%20seaborn.png)
 We can see that the linear relation between each features and label is not very good prediction, so we want to do a linear combination of all features of dataset to do the prediction. 
