@@ -1,7 +1,7 @@
 ![alt text](https://www.nvtt.net/wp-content/uploads/2018/10/wine-tasting.jpg)
 
 ## Introduction
-This study aims to compare the performance of different supervised learning algorithms to predict wine quality based on a wine’s physicochemical test results. Wine quality assessment is crucial in the wine industry and is assessed based on physicochemical tests at laboratories and on sensory tests that rely on human experts opinion on wine preferences [1].
+This study aims to compare the performance of different supervised learning algorithms to predict wine quality based on wine’s physicochemical test results. Wine quality assessment is crucial in the wine industry and is assessed based on physicochemical tests at laboratories and on sensory tests that rely on human experts opinion on wine preferences [1].
 
 ## Background and Motivation
 In 2018, over 966 million gallons of wine was consumed in the United States [2]. The lack of understanding of physicochemical properties’ effect on the taste of wine and the behavior of human taste makes wine quality categorization non-trivial [3,4].The complexity in the accuracy of prediction and the importance of wine quality assessment in the wine industry motivate the research presented here.  In this presentation, we will apply and compare the performance of supervised learning algorithms to predict wine quality.
